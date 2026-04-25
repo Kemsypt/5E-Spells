@@ -1,0 +1,52 @@
+{
+	"name": "Gate Seal",
+	"source": "SatO",
+	"page": 12,
+	"level": 4,
+	"school": "A",
+	"time": [
+		{
+			"number": 1,
+			"unit": "minute"
+		}
+	],
+	"range": {
+		"type": "point",
+		"distance": {
+			"type": "feet",
+			"amount": 60
+		}
+	},
+	"components": {
+		"v": true,
+		"s": true,
+		"m": {
+			"text": "a broken portal key, which the spell consumes",
+			"consume": true
+		}
+	},
+	"duration": [
+		{
+			"type": "timed",
+			"duration": {
+				"type": "hour",
+				"amount": 24
+			}
+		}
+	],
+	"entries": [
+		"You fortify the fabric of the planes in a 30-foot cube you can see within range. Within that area, portals close and can't be opened for the duration. Spells and other effects that allow planar travel or open portals, such as {@spell gate} or {@spell plane shift}, fail if used to enter or leave the area. The cube is stationary."
+	],
+	"entriesHigherLevel": [
+		{
+			"type": "entries",
+			"name": "At Higher Levels",
+			"entries": [
+				"When you cast this spell using a spell slot of 6th level or higher, the spell lasts until dispelled."
+			]
+		}
+	],
+	"miscTags": [
+		"SGT"
+	]
+}
