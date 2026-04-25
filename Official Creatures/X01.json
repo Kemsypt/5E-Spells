@@ -1,0 +1,21 @@
+{
+  "name": "X01",
+  "isNpc": true,
+  "isNamedCreature": true,
+  "source": "ToFW",
+  "page": 91,
+  "_copy": {
+    "name": "Hexton Modron",
+    "source": "MPP",
+    "_mod": {
+      "*": {
+        "mode": "replaceTxt",
+        "replace": "The hexton",
+        "with": "X01",
+        "flags": "i"
+      }
+    }
+  },
+  "hasToken": true,
+  "hasFluffImages": true
+}

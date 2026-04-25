@@ -1,0 +1,157 @@
+{
+  "name": "Githyanki Kith'rak",
+  "source": "MPMM",
+  "page": 140,
+  "otherSources": [
+    {
+      "source": "MTF",
+      "page": 205
+    }
+  ],
+  "size": [
+    "M"
+  ],
+  "type": {
+    "type": "humanoid",
+    "tags": [
+      "gith"
+    ]
+  },
+  "alignment": [
+    "A"
+  ],
+  "ac": [
+    {
+      "ac": 18,
+      "from": [
+        "{@item plate armor|PHB|plate}"
+      ]
+    }
+  ],
+  "hp": {
+    "average": 180,
+    "formula": "24d8 + 72"
+  },
+  "speed": {
+    "walk": 30
+  },
+  "str": 18,
+  "dex": 16,
+  "con": 17,
+  "int": 16,
+  "wis": 15,
+  "cha": 17,
+  "save": {
+    "con": "+7",
+    "int": "+7",
+    "wis": "+6"
+  },
+  "skill": {
+    "intimidation": "+7",
+    "perception": "+6"
+  },
+  "passive": 16,
+  "languages": [
+    "Gith"
+  ],
+  "cr": "12",
+  "spellcasting": [
+    {
+      "name": "Spellcasting (Psionics)",
+      "type": "spellcasting",
+      "headerEntries": [
+        "The githyanki casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 15}):"
+      ],
+      "will": [
+        "{@spell mage hand} (the hand is invisible)"
+      ],
+      "daily": {
+        "3e": [
+          "{@spell blur}",
+          "{@spell nondetection} (self only)"
+        ],
+        "1e": [
+          "{@spell plane shift}",
+          "{@spell telekinesis}"
+        ]
+      },
+      "ability": "int",
+      "displayAs": "action"
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "entries": [
+        "The githyanki makes three Greatsword attacks."
+      ]
+    },
+    {
+      "name": "Greatsword",
+      "entries": [
+        "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage plus 17 ({@damage 5d6}) psychic damage."
+      ]
+    }
+  ],
+  "bonus": [
+    {
+      "name": "Astral Step {@recharge 4}",
+      "entries": [
+        "The githyanki teleports, along with any equipment it is wearing or carrying, up to 30 feet to an unoccupied space it can see."
+      ]
+    },
+    {
+      "name": "Rally the Troops",
+      "entries": [
+        "The githyanki magically ends the {@condition charmed} and {@condition frightened} conditions on itself and each creature of its choice that it can see within 30 feet of it."
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Parry",
+      "entries": [
+        "The githyanki adds 4 to its AC against one melee attack that would hit it. To do so, the githyanki must see the attacker and be wielding a melee weapon."
+      ]
+    }
+  ],
+  "environment": [
+    "desert",
+    "mountain",
+    "urban"
+  ],
+  "soundClip": {
+    "type": "internal",
+    "path": "bestiary/githyanki-kith_rak.opus"
+  },
+  "attachedItems": [
+    "greatsword|phb"
+  ],
+  "actionTags": [
+    "Multiattack",
+    "Parry"
+  ],
+  "languageTags": [
+    "GTH"
+  ],
+  "damageTags": [
+    "S",
+    "Y"
+  ],
+  "spellcastingTags": [
+    "P"
+  ],
+  "miscTags": [
+    "MLW",
+    "MW"
+  ],
+  "conditionInflictSpell": [
+    "restrained"
+  ],
+  "savingThrowForcedSpell": [
+    "charisma"
+  ],
+  "hasToken": true,
+  "hasFluff": true,
+  "hasFluffImages": true
+}

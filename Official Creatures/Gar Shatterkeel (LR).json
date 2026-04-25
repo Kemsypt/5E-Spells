@@ -1,0 +1,270 @@
+{
+  "name": "Gar Shatterkeel",
+  "isNpc": true,
+  "isNamedCreature": true,
+  "source": "LR",
+  "page": 18,
+  "size": [
+    "M"
+  ],
+  "type": "humanoid",
+  "alignment": [
+    "N",
+    "E"
+  ],
+  "ac": [
+    {
+      "ac": 17,
+      "from": [
+        "natural armor"
+      ]
+    }
+  ],
+  "hp": {
+    "average": 144,
+    "formula": "17d8 + 68"
+  },
+  "speed": {
+    "walk": 30,
+    "swim": 30
+  },
+  "str": 16,
+  "dex": 16,
+  "con": 18,
+  "int": 12,
+  "wis": 20,
+  "cha": 14,
+  "skill": {
+    "nature": "+11",
+    "perception": "+10",
+    "survival": "+10"
+  },
+  "passive": 20,
+  "resist": [
+    "cold"
+  ],
+  "languages": [
+    "Aquan",
+    "Common"
+  ],
+  "cr": "15",
+  "spellcasting": [
+    {
+      "name": "Spellcasting",
+      "type": "spellcasting",
+      "headerEntries": [
+        "Gar is a 13th-level spellcaster. His spellcasting ability is Wisdom (spell save {@dc 18}, {@hit 10} to hit with spell attacks). He has the following druid spells prepared:"
+      ],
+      "spells": {
+        "0": {
+          "spells": [
+            "{@spell frostbite|XGE}",
+            "{@spell mending}",
+            "{@spell resistance}",
+            "{@spell shape water|XGE}",
+            "{@spell thunderclap|XGE}*"
+          ]
+        },
+        "1": {
+          "slots": 4,
+          "spells": [
+            "{@spell create or destroy water}",
+            "{@spell charm person}",
+            "{@spell cure wounds}",
+            "{@spell thunderwave}"
+          ]
+        },
+        "2": {
+          "slots": 3,
+          "spells": [
+            "{@spell darkvision}",
+            "{@spell hold person}",
+            "{@spell mirror image}*",
+            "{@spell misty step}*",
+            "{@spell pass without trace}",
+            "{@spell protection from poison}"
+          ]
+        },
+        "3": {
+          "slots": 3,
+          "spells": [
+            "{@spell conjure animals}",
+            "{@spell dispel magic}",
+            "{@spell tidal wave|XGE}",
+            "{@spell water breathing}*",
+            "{@spell water walk}*"
+          ]
+        },
+        "4": {
+          "slots": 3,
+          "spells": [
+            "{@spell charm monster|XGE}",
+            "{@spell control water}*",
+            "{@spell dominate beast}",
+            "{@spell freedom of movement}*",
+            "{@spell watery sphere|XGE}"
+          ]
+        },
+        "5": {
+          "slots": 2,
+          "spells": [
+            "{@spell conjure elemental}*",
+            "{@spell maelstrom|XGE}",
+            "{@spell scrying}*",
+            "{@spell tree stride}"
+          ]
+        },
+        "6": {
+          "slots": 1,
+          "spells": [
+            "{@spell heal}"
+          ]
+        },
+        "7": {
+          "slots": 1,
+          "spells": [
+            "{@spell plane shift}"
+          ]
+        }
+      },
+      "footerEntries": [
+        "*Circle spells don't count against spells prepared."
+      ],
+      "ability": "wis"
+    }
+  ],
+  "trait": [
+    {
+      "name": "Amphibious",
+      "entries": [
+        "Gar can breathe air and water."
+      ]
+    },
+    {
+      "name": "Legendary Resistance (3/Day)",
+      "entries": [
+        "If Gar fails a saving throw, he can choose to succeed instead."
+      ]
+    },
+    {
+      "name": "Water Walk",
+      "entries": [
+        "Gar can stand and move on liquid surfaces as if they were solid ground."
+      ]
+    },
+    {
+      "name": "Watery Fall",
+      "entries": [
+        "When Gar drops to 0 hit points, his body collapses into a pool of inky water that rapidly disperses. Except for {@item Wave} and his claw, anything he was wearing or carrying is left behind."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "entries": [
+        "Gar makes two melee attacks, one with his claw and one with {@item Wave}."
+      ]
+    },
+    {
+      "name": "Claw",
+      "entries": [
+        "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 16}). Until the grapple ends, Gar can't attack other creatures with his claw."
+      ]
+    },
+    {
+      "name": "Wave",
+      "entries": [
+        "{@atk mw,rw} {@hit 11} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}9 ({@damage 1d6 + 6}) piercing damage or 10 ({@damage 1d8 + 6}) piercing damage when used with two hands. If Gar scores a critical hit with this weapon, the target takes extra necrotic damage equal to half its hit point maximum."
+      ]
+    },
+    {
+      "name": "Umberlee's Wake {@recharge 5}",
+      "entries": [
+        "Power ripples out in a 60-foot radius sphere from a point within range (150 ft.) as the will of Umberlee affects all in her watery embrace. Each creature in that area must succeed on a {@dc 18} Constitution saving throw. On a failed save, the creature can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the creature can use either an action or a bonus action on its turn, but not both. These effects last for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself with a successful save. This only affects targets that are submerged or floating in water. Gar Shatterkeel and any undead serving him are immune to this effect."
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "name": "Move",
+      "entries": [
+        "Gar moves up to his speed without provoking opportunity attacks."
+      ]
+    },
+    {
+      "name": "Claw",
+      "entries": [
+        "Gar makes one attack with his claw."
+      ]
+    },
+    {
+      "name": "Wave (Costs 2 Actions)",
+      "entries": [
+        "Gar makes one attack with {@item Wave} with advantage."
+      ]
+    }
+  ],
+  "legendaryGroup": {
+    "name": "Gar Shatterkeel",
+    "source": "LR"
+  },
+  "attachedItems": [
+    "wave|dmg"
+  ],
+  "traitTags": [
+    "Amphibious",
+    "Legendary Resistances"
+  ],
+  "actionTags": [
+    "Multiattack"
+  ],
+  "languageTags": [
+    "AQ",
+    "C"
+  ],
+  "damageTags": [
+    "B",
+    "P"
+  ],
+  "damageTagsSpell": [
+    "B",
+    "C",
+    "T"
+  ],
+  "spellcastingTags": [
+    "CD"
+  ],
+  "miscTags": [
+    "AOE",
+    "MW",
+    "RW"
+  ],
+  "conditionInflict": [
+    "grappled"
+  ],
+  "conditionInflictLegendary": [
+    "restrained"
+  ],
+  "conditionInflictSpell": [
+    "charmed",
+    "paralyzed",
+    "prone",
+    "restrained"
+  ],
+  "savingThrowForced": [
+    "constitution"
+  ],
+  "savingThrowForcedLegendary": [
+    "strength"
+  ],
+  "savingThrowForcedSpell": [
+    "charisma",
+    "constitution",
+    "dexterity",
+    "strength",
+    "wisdom"
+  ],
+  "hasToken": true,
+  "hasFluffImages": true
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Cat Skeleton",
+  "source": "CoS",
+  "page": 109,
+  "_copy": {
+    "name": "Cat",
+    "source": "MM",
+    "_templates": [
+      {
+        "name": "Skeleton",
+        "source": "DMG"
+      }
+    ],
+    "_mod": {
+      "_": [
+        {
+          "mode": "setProp",
+          "prop": "vulnerable",
+          "value": null
+        },
+        {
+          "mode": "setProp",
+          "prop": "languages",
+          "value": null
+        }
+      ]
+    }
+  },
+  "tokenCredit": "BoneTea",
+  "tokenCustom": true,
+  "hasToken": true
+}

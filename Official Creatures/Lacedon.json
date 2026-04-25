@@ -1,0 +1,25 @@
+{
+  "name": "Lacedon",
+  "source": "TftYP",
+  "page": 147,
+  "referenceSources": [
+    "EGW"
+  ],
+  "_copy": {
+    "name": "Ghoul",
+    "source": "MM",
+    "_mod": {
+      "*": {
+        "mode": "replaceTxt",
+        "replace": "ghoul",
+        "with": "lacedon",
+        "flags": "i"
+      }
+    }
+  },
+  "speed": {
+    "walk": 30,
+    "swim": 30
+  },
+  "hasToken": true
+}

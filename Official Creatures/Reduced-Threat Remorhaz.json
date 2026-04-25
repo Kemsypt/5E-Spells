@@ -1,0 +1,16 @@
+{
+  "name": "Reduced-Threat Remorhaz",
+  "source": "TftYP",
+  "page": 113,
+  "_copy": {
+    "name": "Remorhaz",
+    "source": "MM",
+    "_templates": [
+      {
+        "name": "Reduced Threat",
+        "source": "TftYP"
+      }
+    ]
+  },
+  "hasToken": true
+}

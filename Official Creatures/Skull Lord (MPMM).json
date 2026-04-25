@@ -1,0 +1,227 @@
+{
+  "name": "Skull Lord",
+  "source": "MPMM",
+  "page": 220,
+  "otherSources": [
+    {
+      "source": "MTF",
+      "page": 230
+    }
+  ],
+  "referenceSources": [
+    "AATM"
+  ],
+  "size": [
+    "M"
+  ],
+  "type": {
+    "type": "undead",
+    "tags": [
+      "sorcerer"
+    ]
+  },
+  "alignment": [
+    "L",
+    "E"
+  ],
+  "alignmentPrefix": "Typically ",
+  "ac": [
+    {
+      "ac": 18,
+      "from": [
+        "{@item plate armor|PHB|plate}"
+      ]
+    }
+  ],
+  "hp": {
+    "average": 112,
+    "formula": "15d8 + 45"
+  },
+  "speed": {
+    "walk": 30
+  },
+  "str": 14,
+  "dex": 16,
+  "con": 17,
+  "int": 16,
+  "wis": 15,
+  "cha": 21,
+  "skill": {
+    "athletics": "+7",
+    "history": "+8",
+    "perception": "+12",
+    "stealth": "+8"
+  },
+  "senses": [
+    "darkvision 60 ft."
+  ],
+  "passive": 22,
+  "resist": [
+    "cold",
+    "necrotic",
+    {
+      "resist": [
+        "bludgeoning",
+        "piercing",
+        "slashing"
+      ],
+      "note": "from nonmagical attacks",
+      "cond": true
+    }
+  ],
+  "immune": [
+    "poison"
+  ],
+  "conditionImmune": [
+    "blinded",
+    "charmed",
+    "deafened",
+    "exhaustion",
+    "frightened",
+    "poisoned",
+    "stunned",
+    "unconscious"
+  ],
+  "languages": [
+    "all the languages it knew in life"
+  ],
+  "cr": "15",
+  "spellcasting": [
+    {
+      "name": "Spellcasting",
+      "type": "spellcasting",
+      "headerEntries": [
+        "The skull, lord casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 18}):"
+      ],
+      "will": [
+        "{@spell mage hand}",
+        "{@spell message}"
+      ],
+      "daily": {
+        "2e": [
+          "{@spell dimension door}",
+          "{@spell fear}"
+        ],
+        "1e": [
+          "{@spell cloudkill}",
+          "{@spell cone of cold}"
+        ]
+      },
+      "ability": "cha",
+      "displayAs": "action"
+    }
+  ],
+  "trait": [
+    {
+      "name": "Evasion",
+      "entries": [
+        "If the skull lord is subjected to an effect that allows it to make a Dexterity saving throw to take only half the damage, the skull lord instead takes no damage if it succeeds on the saving throw and only half damage if it fails, provided it isn't {@condition incapacitated}."
+      ]
+    },
+    {
+      "name": "Legendary Resistance (3/Day)",
+      "entries": [
+        "If the skull lord fails a saving throw, it can choose to succeed instead."
+      ]
+    },
+    {
+      "name": "Master of the Grave",
+      "entries": [
+        "While within 30 feet of the skull lord, any Undead ally of the skull lord makes saving throws with advantage, and that ally regains {@dice 1d6} hit points whenever it starts its turn there."
+      ]
+    },
+    {
+      "name": "Unusual Nature",
+      "entries": [
+        "The skull lord doesn't require air, food, drink, or sleep."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "entries": [
+        "The skull lord makes three Bone Staff or Deathly Ray attacks."
+      ]
+    },
+    {
+      "name": "Bone Staff",
+      "entries": [
+        "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) bludgeoning damage plus 21 ({@damage 6d6}) necrotic damage."
+      ]
+    },
+    {
+      "name": "Deathly Ray",
+      "entries": [
+        "{@atk rs} {@hit 10} to hit, range 60 ft., one target. {@h}27 ({@damage 5d8 + 5}) necrotic damage."
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "name": "Attack",
+      "entries": [
+        "The skull lord makes one Bone Staff or Deathly Ray attack."
+      ]
+    },
+    {
+      "name": "Move",
+      "entries": [
+        "The skull lord moves up to its speed without provoking {@action opportunity attack||opportunity attacks}."
+      ]
+    },
+    {
+      "name": "Summon Undead (Costs 2 Actions)",
+      "entries": [
+        "The skull lord summons up to five {@creature skeleton||skeletons} or {@creature zombie||zombies} in unoccupied spaces within 30 feet of it. They remain until destroyed. Undead summoned in this way roll initiative, act in the next available turn, and obey the skull lord. The skull lord can have no more than five Undead summoned by this ability at a time."
+      ]
+    }
+  ],
+  "environment": [
+    "desert",
+    "swamp",
+    "underdark"
+  ],
+  "soundClip": {
+    "type": "internal",
+    "path": "bestiary/skull-lord.opus"
+  },
+  "traitTags": [
+    "Legendary Resistances",
+    "Unusual Nature"
+  ],
+  "senseTags": [
+    "D"
+  ],
+  "actionTags": [
+    "Multiattack"
+  ],
+  "languageTags": [
+    "LF"
+  ],
+  "damageTags": [
+    "B",
+    "N"
+  ],
+  "damageTagsSpell": [
+    "C",
+    "I",
+    "O"
+  ],
+  "spellcastingTags": [
+    "O"
+  ],
+  "miscTags": [
+    "MW"
+  ],
+  "conditionInflictSpell": [
+    "frightened"
+  ],
+  "savingThrowForcedSpell": [
+    "constitution",
+    "wisdom"
+  ],
+  "hasToken": true,
+  "hasFluff": true,
+  "hasFluffImages": true
+}

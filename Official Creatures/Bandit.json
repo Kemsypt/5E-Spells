@@ -1,0 +1,139 @@
+{
+  "name": "Bandit",
+  "source": "MM",
+  "page": 343,
+  "srd": true,
+  "basicRules": true,
+  "referenceSources": [
+    "BGDIA",
+    "BMT",
+    "CM",
+    "CoA",
+    "CoS",
+    "CRCotN",
+    "DC",
+    "DIP",
+    "DSotDQ",
+    "EGW",
+    "ERLW",
+    "GoS",
+    "HotDQ",
+    "IDRotF",
+    "JttRC",
+    "KftGV",
+    "LoX",
+    "OotA",
+    "OoW",
+    "PaBTSO",
+    "PotA",
+    "QftIS",
+    "RtG",
+    "SatO",
+    "SjA",
+    "SKT",
+    "SLW",
+    "TLK",
+    "ToA",
+    "WDH",
+    "WDMM"
+  ],
+  "size": [
+    "M"
+  ],
+  "type": {
+    "type": "humanoid",
+    "tags": [
+      "any race"
+    ]
+  },
+  "alignment": [
+    "NX",
+    "C",
+    "G",
+    "NY",
+    "E"
+  ],
+  "ac": [
+    {
+      "ac": 12,
+      "from": [
+        "{@item leather armor|phb}"
+      ]
+    }
+  ],
+  "hp": {
+    "average": 11,
+    "formula": "2d8 + 2"
+  },
+  "speed": {
+    "walk": 30
+  },
+  "str": 11,
+  "dex": 12,
+  "con": 12,
+  "int": 10,
+  "wis": 10,
+  "cha": 10,
+  "passive": 10,
+  "languages": [
+    "any one language (usually Common)"
+  ],
+  "cr": "1/8",
+  "action": [
+    {
+      "name": "Scimitar",
+      "entries": [
+        "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) slashing damage."
+      ]
+    },
+    {
+      "name": "Light Crossbow",
+      "entries": [
+        "{@atk rw} {@hit 3} to hit, range 80/320 ft., one target. {@h}5 ({@damage 1d8 + 1}) piercing damage."
+      ]
+    }
+  ],
+  "environment": [
+    "coastal",
+    "hill",
+    "arctic",
+    "urban",
+    "forest",
+    "desert"
+  ],
+  "soundClip": {
+    "type": "internal",
+    "path": "bestiary/bandit.opus"
+  },
+  "altArt": [
+    {
+      "name": "Diabolical Bandit",
+      "source": "MTF",
+      "page": 18
+    },
+    {
+      "name": "Uttolot Elf Bandit",
+      "source": "EGW"
+    }
+  ],
+  "attachedItems": [
+    "light crossbow|phb",
+    "scimitar|phb"
+  ],
+  "languageTags": [
+    "C",
+    "X"
+  ],
+  "damageTags": [
+    "P",
+    "S"
+  ],
+  "miscTags": [
+    "MLW",
+    "MW",
+    "RNG",
+    "RW"
+  ],
+  "hasToken": true,
+  "hasFluff": true
+}

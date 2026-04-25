@@ -1,0 +1,197 @@
+{
+  "name": "Dybbuk",
+  "source": "MPMM",
+  "page": 113,
+  "otherSources": [
+    {
+      "source": "MTF",
+      "page": 132
+    }
+  ],
+  "referenceSources": [
+    "AATM"
+  ],
+  "size": [
+    "M"
+  ],
+  "type": {
+    "type": "fiend",
+    "tags": [
+      "demon"
+    ]
+  },
+  "alignment": [
+    "C",
+    "E"
+  ],
+  "alignmentPrefix": "Typically ",
+  "ac": [
+    14
+  ],
+  "hp": {
+    "average": 37,
+    "formula": "5d8 + 15"
+  },
+  "speed": {
+    "walk": {
+      "number": 40,
+      "condition": "(hover)"
+    }
+  },
+  "str": 6,
+  "dex": 19,
+  "con": 16,
+  "int": 16,
+  "wis": 15,
+  "cha": 14,
+  "skill": {
+    "deception": "+6",
+    "intimidation": "+4",
+    "perception": "+4"
+  },
+  "senses": [
+    "darkvision 120 ft."
+  ],
+  "passive": 14,
+  "resist": [
+    "acid",
+    "cold",
+    "fire",
+    "lightning",
+    "thunder",
+    {
+      "resist": [
+        "bludgeoning",
+        "piercing",
+        "slashing"
+      ],
+      "note": "from nonmagical attacks",
+      "cond": true
+    }
+  ],
+  "immune": [
+    "poison"
+  ],
+  "conditionImmune": [
+    "charmed",
+    "exhaustion",
+    "frightened",
+    "grappled",
+    "paralyzed",
+    "petrified",
+    "poisoned",
+    "prone",
+    "restrained"
+  ],
+  "languages": [
+    "Abyssal",
+    "Common",
+    "telepathy 120 ft."
+  ],
+  "cr": "4",
+  "spellcasting": [
+    {
+      "name": "Spellcasting",
+      "type": "spellcasting",
+      "headerEntries": [
+        "The dybbuk casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 12}):"
+      ],
+      "will": [
+        "{@spell dimension door}"
+      ],
+      "daily": {
+        "3": [
+          "{@spell phantasmal force}"
+        ]
+      },
+      "ability": "cha",
+      "displayAs": "action"
+    }
+  ],
+  "trait": [
+    {
+      "name": "Incorporeal Movement",
+      "entries": [
+        "The dybbuk can move through other creatures and objects as if they were {@quickref difficult terrain||3}. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "entries": [
+        "The dybbuk has advantage on saving throws against spells and other magical effects."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Tentacle",
+      "entries": [
+        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) necrotic damage. If the target is a creature, its hit point maximum is also reduced by 3 ({@dice 1d6}). This reduction lasts until the target finishes a short or long rest. The target dies if its hit point maximum is reduced to 0."
+      ]
+    },
+    {
+      "name": "Possess Corpse {@recharge}",
+      "entries": [
+        "The dybbuk disappears into an intact corpse within 5 feet of it that belonged to a Large or smaller Beast or Humanoid. The dybbuk gains 20 temporary hit points. While possessing the corpse, the dybbuk adopts the corpse's size and can't use Incorporeal Movement. Its game statistics otherwise remain the same. The possession lasts until the temporary hit points are lost or the dybbuk ends it as a bonus action. When the possession ends, the dybbuk appears in an unoccupied space within 5 feet of the corpse."
+      ]
+    }
+  ],
+  "bonus": [
+    {
+      "name": "Control Corpse",
+      "entries": [
+        "While Possess Corpse is active, the dybbuk makes the corpse do something unnatural, such as vomit blood, twist its head all the way around, or cause a quadruped to move as a biped. Any Beast or Humanoid that sees this behavior must succeed on a {@dc 12} Wisdom saving throw or become {@condition frightened} of the dybbuk for 1 minute. The {@condition frightened} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that succeeds on a saving throw against this ability is immune to Control Corpse for 24 hours."
+      ]
+    }
+  ],
+  "environment": [
+    "desert",
+    "urban"
+  ],
+  "soundClip": {
+    "type": "internal",
+    "path": "bestiary/dybbuk.opus"
+  },
+  "traitTags": [
+    "Incorporeal Movement",
+    "Magic Resistance"
+  ],
+  "senseTags": [
+    "SD"
+  ],
+  "actionTags": [
+    "Tentacles"
+  ],
+  "languageTags": [
+    "AB",
+    "C",
+    "TP"
+  ],
+  "damageTags": [
+    "N",
+    "O"
+  ],
+  "damageTagsSpell": [
+    "O",
+    "Y"
+  ],
+  "spellcastingTags": [
+    "O"
+  ],
+  "miscTags": [
+    "HPR",
+    "MW"
+  ],
+  "conditionInflict": [
+    "frightened"
+  ],
+  "savingThrowForced": [
+    "wisdom"
+  ],
+  "savingThrowForcedSpell": [
+    "intelligence"
+  ],
+  "hasToken": true,
+  "hasFluff": true,
+  "hasFluffImages": true
+}

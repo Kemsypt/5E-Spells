@@ -1,0 +1,241 @@
+{
+  "name": "Bael",
+  "isNamedCreature": true,
+  "source": "MPMM",
+  "page": 54,
+  "otherSources": [
+    {
+      "source": "MTF",
+      "page": 170
+    }
+  ],
+  "size": [
+    "L"
+  ],
+  "type": {
+    "type": "fiend",
+    "tags": [
+      "devil"
+    ]
+  },
+  "alignment": [
+    "L",
+    "E"
+  ],
+  "ac": [
+    {
+      "ac": 18,
+      "from": [
+        "{@item plate armor|PHB|plate}"
+      ]
+    }
+  ],
+  "hp": {
+    "average": 189,
+    "formula": "18d10 + 90"
+  },
+  "speed": {
+    "walk": 30
+  },
+  "str": 24,
+  "dex": 17,
+  "con": 20,
+  "int": 21,
+  "wis": 24,
+  "cha": 24,
+  "save": {
+    "dex": "+9",
+    "con": "+11",
+    "int": "+11",
+    "cha": "+13"
+  },
+  "skill": {
+    "intimidation": "+13",
+    "perception": "+13",
+    "persuasion": "+13"
+  },
+  "senses": [
+    "truesight 120 ft."
+  ],
+  "passive": 23,
+  "resist": [
+    "cold",
+    {
+      "resist": [
+        "bludgeoning",
+        "piercing",
+        "slashing"
+      ],
+      "note": "from nonmagical attacks that aren't silvered",
+      "cond": true
+    }
+  ],
+  "immune": [
+    "fire",
+    "poison"
+  ],
+  "conditionImmune": [
+    "charmed",
+    "exhaustion",
+    "frightened",
+    "poisoned"
+  ],
+  "languages": [
+    "all",
+    "telepathy 120 ft."
+  ],
+  "cr": "19",
+  "spellcasting": [
+    {
+      "name": "Spellcasting",
+      "type": "spellcasting",
+      "headerEntries": [
+        "Bael casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 21}):"
+      ],
+      "will": [
+        "{@spell alter self} (can become Medium)",
+        "{@spell charm person}",
+        "{@spell detect magic}",
+        "{@spell invisibility}",
+        "{@spell major image}"
+      ],
+      "daily": {
+        "1": [
+          "{@spell dominate monster}"
+        ],
+        "3e": [
+          "{@spell dispel magic}",
+          "{@spell fly}",
+          "{@spell suggestion}",
+          "{@spell wall of fire}"
+        ]
+      },
+      "ability": "cha",
+      "displayAs": "action"
+    }
+  ],
+  "trait": [
+    {
+      "name": "Dread",
+      "entries": [
+        "Any creature, other than a devil, that starts its turn within 10 feet of Bael must succeed on a {@dc 22} Wisdom saving throw or be {@condition frightened} of him until the start of its next turn. A creature succeeds on this saving throw automatically if Bael wishes it or if he is {@condition incapacitated}."
+      ]
+    },
+    {
+      "name": "Legendary Resistance (3/Day)",
+      "entries": [
+        "If Bael fails a saving throw, he can choose to succeed instead."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "entries": [
+        "Bael have advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Regeneration",
+      "entries": [
+        "Bael regains 20 hit points at the start of his turn. If he takes cold or radiant damage, this trait doesn't function at the start of his next turn. Bael dies only if he starts his turn with 0 hit points and doesn't regenerate."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "entries": [
+        "Bael makes two Hellish Morningstar attacks."
+      ]
+    },
+    {
+      "name": "Hellish Morningstar",
+      "entries": [
+        "{@atk mw} {@hit 13} to hit, reach 20 ft., one target. {@h}16 ({@damage 2d8 + 7}) force damage plus 9 ({@damage 2d8}) necrotic damage."
+      ]
+    },
+    {
+      "name": "Infernal Command",
+      "entries": [
+        "Each of Bael's allies within 60 feet of him can't be {@condition charmed} or {@condition frightened} until the end of his next turn."
+      ]
+    },
+    {
+      "name": "Teleport",
+      "entries": [
+        "Bael teleports, along with any equipment he is wearing or carrying, up to 120 feet to an unoccupied space he can see."
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "name": "Fiendish Magic",
+      "entries": [
+        "Bael uses Spellcasting or Teleport."
+      ]
+    },
+    {
+      "name": "Infernal Command",
+      "entries": [
+        "Bael uses Infernal Command."
+      ]
+    },
+    {
+      "name": "Attack (Costs 2 Actions)",
+      "entries": [
+        "Bael makes one Hellish Morningstar attack."
+      ]
+    }
+  ],
+  "soundClip": {
+    "type": "internal",
+    "path": "bestiary/bael.opus"
+  },
+  "traitTags": [
+    "Legendary Resistances",
+    "Magic Resistance",
+    "Regeneration"
+  ],
+  "senseTags": [
+    "U"
+  ],
+  "actionTags": [
+    "Multiattack",
+    "Teleport"
+  ],
+  "languageTags": [
+    "TP",
+    "XX"
+  ],
+  "damageTags": [
+    "N",
+    "O"
+  ],
+  "damageTagsSpell": [
+    "B",
+    "F",
+    "P",
+    "S"
+  ],
+  "spellcastingTags": [
+    "O"
+  ],
+  "miscTags": [
+    "MLW",
+    "MW",
+    "RCH"
+  ],
+  "conditionInflictSpell": [
+    "charmed",
+    "invisible"
+  ],
+  "savingThrowForced": [
+    "wisdom"
+  ],
+  "savingThrowForcedSpell": [
+    "dexterity",
+    "wisdom"
+  ],
+  "hasToken": true,
+  "hasFluff": true,
+  "hasFluffImages": true
+}

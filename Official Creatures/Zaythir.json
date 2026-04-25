@@ -1,0 +1,24 @@
+{
+  "name": "Zaythir",
+  "isNpc": true,
+  "isNamedCreature": true,
+  "source": "ToFW",
+  "page": 32,
+  "_copy": {
+    "name": "Githzerai Uniter",
+    "source": "MPP",
+    "_mod": {
+      "*": {
+        "mode": "replaceTxt",
+        "replace": "The githzerai",
+        "with": "Zaythir",
+        "flags": "i"
+      }
+    }
+  },
+  "alignment": [
+    "N"
+  ],
+  "hasToken": true,
+  "hasFluffImages": true
+}

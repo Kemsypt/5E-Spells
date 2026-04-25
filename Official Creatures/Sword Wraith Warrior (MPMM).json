@@ -1,0 +1,138 @@
+{
+  "name": "Sword Wraith Warrior",
+  "source": "MPMM",
+  "page": 239,
+  "otherSources": [
+    {
+      "source": "MTF",
+      "page": 241
+    }
+  ],
+  "referenceSources": [
+    "CRCotN"
+  ],
+  "size": [
+    "M"
+  ],
+  "type": "undead",
+  "alignment": [
+    "L",
+    "E"
+  ],
+  "alignmentPrefix": "Typically ",
+  "ac": [
+    {
+      "ac": 16,
+      "from": [
+        "{@item chain shirt|PHB}",
+        "{@item shield|PHB}"
+      ]
+    }
+  ],
+  "hp": {
+    "average": 45,
+    "formula": "6d8 + 18"
+  },
+  "speed": {
+    "walk": 30
+  },
+  "str": 18,
+  "dex": 12,
+  "con": 17,
+  "int": 6,
+  "wis": 9,
+  "cha": 10,
+  "senses": [
+    "darkvision 60 ft."
+  ],
+  "passive": 9,
+  "resist": [
+    "necrotic",
+    {
+      "resist": [
+        "bludgeoning",
+        "piercing",
+        "slashing"
+      ],
+      "note": "from nonmagical attacks",
+      "cond": true
+    }
+  ],
+  "immune": [
+    "poison"
+  ],
+  "conditionImmune": [
+    "exhaustion",
+    "frightened",
+    "poisoned",
+    "unconscious"
+  ],
+  "languages": [
+    "the languages it knew in life"
+  ],
+  "cr": "3",
+  "trait": [
+    {
+      "name": "Unusual Nature",
+      "entries": [
+        "The warrior doesn't require air, food, drink, or sleep."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Battleaxe",
+      "entries": [
+        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage, or 9 ({@damage 1d10 + 4}) slashing damage if used with two hands."
+      ]
+    },
+    {
+      "name": "Longbow",
+      "entries": [
+        "{@atk rw} {@hit 3} to hit, range 150/600 ft., one target. {@h}5 ({@damage 1d8 + 1}) piercing damage."
+      ]
+    }
+  ],
+  "bonus": [
+    {
+      "name": "Martial Fury",
+      "entries": [
+        "The warrior makes one Battleaxe or Longbow attack, and attack rolls against it have advantage until the start of its next turn."
+      ]
+    }
+  ],
+  "environment": [
+    "grassland",
+    "swamp"
+  ],
+  "soundClip": {
+    "type": "internal",
+    "path": "bestiary/sword-wraith-warrior.opus"
+  },
+  "attachedItems": [
+    "battleaxe|phb",
+    "longbow|phb"
+  ],
+  "traitTags": [
+    "Unusual Nature"
+  ],
+  "senseTags": [
+    "D"
+  ],
+  "languageTags": [
+    "LF"
+  ],
+  "damageTags": [
+    "P",
+    "S"
+  ],
+  "miscTags": [
+    "MLW",
+    "MW",
+    "RNG",
+    "RW"
+  ],
+  "hasToken": true,
+  "hasFluff": true,
+  "hasFluffImages": true
+}

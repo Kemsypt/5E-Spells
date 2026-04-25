@@ -1,0 +1,173 @@
+{
+  "name": "Narzugon",
+  "source": "MPMM",
+  "page": 190,
+  "otherSources": [
+    {
+      "source": "MTF",
+      "page": 167
+    }
+  ],
+  "referenceSources": [
+    "AATM"
+  ],
+  "size": [
+    "M"
+  ],
+  "type": {
+    "type": "fiend",
+    "tags": [
+      "devil"
+    ]
+  },
+  "alignment": [
+    "L",
+    "E"
+  ],
+  "alignmentPrefix": "Typically ",
+  "ac": [
+    {
+      "ac": 20,
+      "from": [
+        "{@item plate armor|PHB}",
+        "{@item shield|PHB}"
+      ]
+    }
+  ],
+  "hp": {
+    "average": 112,
+    "formula": "15d8 + 45"
+  },
+  "speed": {
+    "walk": 30
+  },
+  "str": 20,
+  "dex": 10,
+  "con": 17,
+  "int": 16,
+  "wis": 14,
+  "cha": 19,
+  "save": {
+    "dex": "+5",
+    "con": "+8",
+    "cha": "+9"
+  },
+  "skill": {
+    "perception": "+12"
+  },
+  "senses": [
+    "darkvision 120 ft."
+  ],
+  "passive": 22,
+  "resist": [
+    "acid",
+    "cold",
+    {
+      "resist": [
+        "bludgeoning",
+        "piercing",
+        "slashing"
+      ],
+      "note": "from nonmagical attacks that aren't silvered",
+      "cond": true
+    }
+  ],
+  "immune": [
+    "fire",
+    "poison"
+  ],
+  "conditionImmune": [
+    "charmed",
+    "frightened",
+    "poisoned"
+  ],
+  "languages": [
+    "Common",
+    "Infernal",
+    "telepathy 120 ft."
+  ],
+  "cr": "13",
+  "trait": [
+    {
+      "name": "Infernal Tack",
+      "entries": [
+        "The narzugon wears spurs that are part of {@item infernal tack|MTF}, which allow it to summon its {@creature nightmare} companion as an action."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "entries": [
+        "The narzugon has advantage on saving throws against spells and other magical effects."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "entries": [
+        "The narzugon makes three Hellfire Lance attacks. It also uses Infernal Command or Terrifying Command."
+      ]
+    },
+    {
+      "name": "Hellfire Lance",
+      "entries": [
+        "{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}11 ({@damage 1d12 + 5}) piercing damage plus 16 ({@damage 3d10}) fire damage. If this damage kills a creature with a soul, the soul rises from the River Styx as a {@creature lemure} in Avernus in {@dice 1d4} hours. If the creature isn't revived before then, only a {@spell wish} spell or killing the lemure and casting true resurrection on the creature's original body can restore it to life. Constructs and devils are immune to this effect."
+      ]
+    },
+    {
+      "name": "Infernal Command",
+      "entries": [
+        "Each ally of the narzugon within 60 feet of it can't be {@condition charmed} or {@condition frightened} until the end of the narzugon's next turn."
+      ]
+    },
+    {
+      "name": "Terrifying Command",
+      "entries": [
+        "Each creature within 60 feet of the narzugon that isn't a Fiend must succeed on a {@dc 17} Charisma saving throw or become {@condition frightened} of the narzugon for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that makes a successful saving throw is immune to this narzugon's Terrifying Command for 24 hours."
+      ]
+    },
+    {
+      "name": "Healing (1/Day)",
+      "entries": [
+        "The narzugon, or one creature it touches, regains 100 hit points."
+      ]
+    }
+  ],
+  "soundClip": {
+    "type": "internal",
+    "path": "bestiary/narzugon.opus"
+  },
+  "traitTags": [
+    "Magic Resistance"
+  ],
+  "senseTags": [
+    "SD"
+  ],
+  "actionTags": [
+    "Multiattack"
+  ],
+  "languageTags": [
+    "C",
+    "I",
+    "TP"
+  ],
+  "damageTags": [
+    "F",
+    "P"
+  ],
+  "miscTags": [
+    "AOE",
+    "MLW",
+    "MW",
+    "RCH"
+  ],
+  "conditionInflict": [
+    "frightened"
+  ],
+  "savingThrowForced": [
+    "charisma"
+  ],
+  "hasToken": true,
+  "hasFluff": true,
+  "hasFluffImages": true
+}

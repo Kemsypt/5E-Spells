@@ -1,0 +1,175 @@
+{
+  "name": "Dhergoloth",
+  "source": "MPMM",
+  "page": 94,
+  "otherSources": [
+    {
+      "source": "MTF",
+      "page": 248
+    }
+  ],
+  "size": [
+    "M"
+  ],
+  "type": {
+    "type": "fiend",
+    "tags": [
+      "yugoloth"
+    ]
+  },
+  "alignment": [
+    "N",
+    "E"
+  ],
+  "alignmentPrefix": "Typically ",
+  "ac": [
+    {
+      "ac": 15,
+      "from": [
+        "natural armor"
+      ]
+    }
+  ],
+  "hp": {
+    "average": 119,
+    "formula": "14d8 + 56"
+  },
+  "speed": {
+    "walk": 30
+  },
+  "str": 17,
+  "dex": 10,
+  "con": 19,
+  "int": 7,
+  "wis": 10,
+  "cha": 9,
+  "save": {
+    "str": "+6"
+  },
+  "senses": [
+    "blindsight 60 ft.",
+    "darkvision 60 ft."
+  ],
+  "passive": 10,
+  "resist": [
+    "cold",
+    "fire",
+    "lightning",
+    {
+      "resist": [
+        "bludgeoning",
+        "piercing",
+        "slashing"
+      ],
+      "note": "from nonmagical attacks",
+      "cond": true
+    }
+  ],
+  "immune": [
+    "acid",
+    "poison"
+  ],
+  "conditionImmune": [
+    "poisoned"
+  ],
+  "languages": [
+    "Abyssal",
+    "Infernal",
+    "telepathy 60 ft."
+  ],
+  "cr": "7",
+  "spellcasting": [
+    {
+      "name": "Spellcasting",
+      "type": "spellcasting",
+      "headerEntries": [
+        "The dhergoloth casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 10}):"
+      ],
+      "will": [
+        "{@spell darkness}",
+        "{@spell fear}"
+      ],
+      "ability": "cha",
+      "displayAs": "action"
+    }
+  ],
+  "trait": [
+    {
+      "name": "Magic Resistance",
+      "entries": [
+        "The dhergoloth has advantage on saving throws against spells and other magical effects."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "entries": [
+        "The dhergoloth makes two Claw attacks."
+      ]
+    },
+    {
+      "name": "Claw",
+      "entries": [
+        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d8 + 3}) force damage."
+      ]
+    },
+    {
+      "name": "Flailing Claws {@recharge 5}",
+      "entries": [
+        "The dhergoloth moves up to its speed in a straight line and targets each creature within 5 feet of it during its movement. Each target must succeed on a {@dc 14} Dexterity saving throw or take 22 ({@damage 3d12 + 3}) force damage."
+      ]
+    },
+    {
+      "name": "Teleport",
+      "entries": [
+        "The dhergoloth teleports, along with any equipment it is wearing or carrying, up to 60 feet to an unoccupied space it can see."
+      ]
+    }
+  ],
+  "environment": [
+    "underdark"
+  ],
+  "soundClip": {
+    "type": "internal",
+    "path": "bestiary/dhergoloth.opus"
+  },
+  "traitTags": [
+    "Magic Resistance"
+  ],
+  "senseTags": [
+    "B",
+    "D"
+  ],
+  "actionTags": [
+    "Multiattack",
+    "Teleport"
+  ],
+  "languageTags": [
+    "AB",
+    "I",
+    "TP"
+  ],
+  "damageTags": [
+    "O"
+  ],
+  "spellcastingTags": [
+    "O"
+  ],
+  "miscTags": [
+    "AOE",
+    "MW"
+  ],
+  "conditionInflictSpell": [
+    "frightened"
+  ],
+  "savingThrowForced": [
+    "dexterity"
+  ],
+  "savingThrowForcedSpell": [
+    "wisdom"
+  ],
+  "hasToken": true,
+  "hasFluff": true,
+  "hasFluffImages": true
+}

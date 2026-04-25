@@ -1,0 +1,181 @@
+{
+  "name": "Githyanki Supreme Commander",
+  "source": "MPMM",
+  "page": 141,
+  "otherSources": [
+    {
+      "source": "MTF",
+      "page": 206
+    }
+  ],
+  "size": [
+    "M"
+  ],
+  "type": {
+    "type": "humanoid",
+    "tags": [
+      "gith"
+    ]
+  },
+  "alignment": [
+    "A"
+  ],
+  "ac": [
+    {
+      "ac": 18,
+      "from": [
+        "{@item plate armor|PHB|plate}"
+      ]
+    }
+  ],
+  "hp": {
+    "average": 187,
+    "formula": "22d8 + 88"
+  },
+  "speed": {
+    "walk": 30
+  },
+  "str": 19,
+  "dex": 17,
+  "con": 18,
+  "int": 16,
+  "wis": 16,
+  "cha": 18,
+  "save": {
+    "con": "+9",
+    "int": "+8",
+    "wis": "+8"
+  },
+  "skill": {
+    "intimidation": "+9",
+    "perception": "+8"
+  },
+  "passive": 18,
+  "languages": [
+    "Gith"
+  ],
+  "cr": "14",
+  "spellcasting": [
+    {
+      "name": "Spellcasting (Psionics)",
+      "type": "spellcasting",
+      "headerEntries": [
+        "The githyanki casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 16}):"
+      ],
+      "will": [
+        "{@spell mage hand} (the hand is invisible)"
+      ],
+      "daily": {
+        "3e": [
+          "{@spell levitate} (self only)",
+          "{@spell nondetection} (self only)"
+        ],
+        "1e": [
+          "{@spell Bigby's hand}",
+          "{@spell mass suggestion}",
+          "{@spell plane shift}",
+          "{@spell telekinesis}"
+        ]
+      },
+      "ability": "int",
+      "displayAs": "action"
+    }
+  ],
+  "trait": [
+    {
+      "name": "Legendary Resistance (3/Day)",
+      "entries": [
+        "If the githyanki fails a saving throw, it can choose to succeed instead."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "entries": [
+        "The githyanki makes two Silver Greatsword attacks."
+      ]
+    },
+    {
+      "name": "Silver Greatsword",
+      "entries": [
+        "{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d6 + 7}) slashing damage plus 17 ({@damage 5d6}) psychic damage. On a critical hit against a target in an astral body (as with the {@spell astral projection} spell), the githyanki can cut the silvery cord that tethers the target to its material body, instead of dealing damage."
+      ]
+    }
+  ],
+  "bonus": [
+    {
+      "name": "Astral Step",
+      "entries": [
+        "The githyanki teleports, along with any equipment it is wearing or carrying, up to 30 feet to an unoccupied space it can see."
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Parry",
+      "entries": [
+        "The githyanki adds 5 to its AC against one melee attack that would hit it. To do so, the githyanki must see the attacker and be wielding a melee weapon."
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "name": "Command Ally",
+      "entries": [
+        "The githyanki targets one ally it can see within 30 feet of it. If the target can see or hear the githyanki, the target can make one melee weapon attack using its reaction, if available, and has advantage on the attack roll."
+      ]
+    },
+    {
+      "name": "Attack (2 Actions)",
+      "entries": [
+        "The githyanki makes one Silver Greatsword attack."
+      ]
+    }
+  ],
+  "environment": [
+    "desert",
+    "mountain",
+    "urban"
+  ],
+  "soundClip": {
+    "type": "internal",
+    "path": "bestiary/githyanki-supreme-commander.opus"
+  },
+  "traitTags": [
+    "Legendary Resistances"
+  ],
+  "actionTags": [
+    "Multiattack",
+    "Parry"
+  ],
+  "languageTags": [
+    "GTH"
+  ],
+  "damageTags": [
+    "S",
+    "Y"
+  ],
+  "damageTagsSpell": [
+    "B",
+    "O"
+  ],
+  "spellcastingTags": [
+    "P"
+  ],
+  "miscTags": [
+    "MLW",
+    "MW"
+  ],
+  "conditionInflictSpell": [
+    "restrained"
+  ],
+  "savingThrowForcedSpell": [
+    "charisma",
+    "constitution",
+    "wisdom"
+  ],
+  "hasToken": true,
+  "hasFluff": true,
+  "hasFluffImages": true
+}

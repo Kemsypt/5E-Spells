@@ -1,0 +1,31 @@
+{
+  "name": "Violet Fungus",
+  "source": "DoSI",
+  "page": 48,
+  "referenceSources": [
+    "BMT",
+    "PaBTSO"
+  ],
+  "_copy": {
+    "name": "Violet Fungus",
+    "source": "MM",
+    "_mod": {
+      "trait": [
+        {
+          "mode": "replaceArr",
+          "replace": "False Appearance",
+          "items": {
+            "name": "False Appearance",
+            "type": "entries",
+            "entries": [
+              "If the violet fungus is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the fungus move or act, that creature must succeed on a {@dc 18} Intelligence ({@skill Investigation}) check to discern that the violet fungus isn't ordinary fungus."
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "hasToken": true,
+  "hasFluff": true,
+  "hasFluffImages": true
+}

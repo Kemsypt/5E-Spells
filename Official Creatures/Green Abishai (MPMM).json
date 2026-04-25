@@ -1,0 +1,198 @@
+{
+  "name": "Green Abishai",
+  "source": "MPMM",
+  "page": 40,
+  "otherSources": [
+    {
+      "source": "MTF",
+      "page": 162
+    }
+  ],
+  "referenceSources": [
+    "CoA",
+    "VEoR"
+  ],
+  "size": [
+    "M"
+  ],
+  "type": {
+    "type": "fiend",
+    "tags": [
+      "devil"
+    ]
+  },
+  "alignment": [
+    "L",
+    "E"
+  ],
+  "alignmentPrefix": "Typically ",
+  "ac": [
+    {
+      "ac": 18,
+      "from": [
+        "natural armor"
+      ]
+    }
+  ],
+  "hp": {
+    "average": 195,
+    "formula": "26d8 + 78"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": 40
+  },
+  "str": 12,
+  "dex": 17,
+  "con": 16,
+  "int": 17,
+  "wis": 12,
+  "cha": 19,
+  "save": {
+    "int": "+8",
+    "cha": "+9"
+  },
+  "skill": {
+    "deception": "+9",
+    "insight": "+6",
+    "perception": "+6",
+    "persuasion": "+9"
+  },
+  "senses": [
+    "darkvision 120 ft."
+  ],
+  "passive": 16,
+  "resist": [
+    "cold",
+    {
+      "resist": [
+        "bludgeoning",
+        "piercing",
+        "slashing"
+      ],
+      "note": "from nonmagical attacks that aren't silvered",
+      "cond": true
+    }
+  ],
+  "immune": [
+    "fire",
+    "poison"
+  ],
+  "conditionImmune": [
+    "poisoned"
+  ],
+  "languages": [
+    "Draconic",
+    "Infernal",
+    "telepathy 120 ft."
+  ],
+  "cr": "15",
+  "spellcasting": [
+    {
+      "name": "Spellcasting",
+      "type": "spellcasting",
+      "headerEntries": [
+        "The abishai casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 17}):"
+      ],
+      "will": [
+        "{@spell alter self}",
+        "{@spell major image}"
+      ],
+      "daily": {
+        "3e": [
+          "{@spell charm person}",
+          "{@spell detect thoughts}",
+          "{@spell fear}"
+        ],
+        "1e": [
+          "{@spell confusion}",
+          "{@spell dominate person}",
+          "{@spell mass suggestion}"
+        ]
+      },
+      "ability": "cha",
+      "displayAs": "action"
+    }
+  ],
+  "trait": [
+    {
+      "name": "Devil's Sight",
+      "entries": [
+        "Magical darkness doesn't impede the abishai's {@sense darkvision}."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "entries": [
+        "The abishai has advantage on saving throws against spells and other magical effects."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "entries": [
+        "The abishai makes two Fiendish Claw attacks, or it makes one Fiendish Claw attack and uses Spellcasting."
+      ]
+    },
+    {
+      "name": "Fiendish Claw",
+      "entries": [
+        "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d8 + 3}) force damage. If the target is a creature, it must succeed on a {@dc 16} Constitution saving throw or take 16 ({@damage 3d10}) poison damage and become {@condition poisoned} for 1 minute. The {@condition poisoned} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+      ]
+    }
+  ],
+  "environment": [
+    "urban"
+  ],
+  "soundClip": {
+    "type": "internal",
+    "path": "bestiary/green-abishai.opus"
+  },
+  "traitTags": [
+    "Devil's Sight",
+    "Magic Resistance"
+  ],
+  "senseTags": [
+    "SD"
+  ],
+  "actionTags": [
+    "Multiattack"
+  ],
+  "languageTags": [
+    "DR",
+    "I",
+    "TP"
+  ],
+  "damageTags": [
+    "I",
+    "O"
+  ],
+  "damageTagsSpell": [
+    "B",
+    "P",
+    "S"
+  ],
+  "spellcastingTags": [
+    "O"
+  ],
+  "miscTags": [
+    "MW"
+  ],
+  "conditionInflict": [
+    "poisoned"
+  ],
+  "conditionInflictSpell": [
+    "charmed",
+    "frightened"
+  ],
+  "savingThrowForced": [
+    "constitution"
+  ],
+  "savingThrowForcedSpell": [
+    "wisdom"
+  ],
+  "hasToken": true,
+  "hasFluff": true,
+  "hasFluffImages": true
+}

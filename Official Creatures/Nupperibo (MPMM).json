@@ -1,0 +1,120 @@
+{
+  "name": "Nupperibo",
+  "source": "MPMM",
+  "page": 196,
+  "otherSources": [
+    {
+      "source": "MTF",
+      "page": 168
+    }
+  ],
+  "referenceSources": [
+    "CoA"
+  ],
+  "size": [
+    "M"
+  ],
+  "type": {
+    "type": "fiend",
+    "tags": [
+      "devil"
+    ]
+  },
+  "alignment": [
+    "L",
+    "E"
+  ],
+  "alignmentPrefix": "Typically ",
+  "ac": [
+    {
+      "ac": 13,
+      "from": [
+        "natural armor"
+      ]
+    }
+  ],
+  "hp": {
+    "average": 11,
+    "formula": "2d8 + 2"
+  },
+  "speed": {
+    "walk": 20
+  },
+  "str": 16,
+  "dex": 11,
+  "con": 13,
+  "int": 3,
+  "wis": 8,
+  "cha": 1,
+  "skill": {
+    "perception": "+1"
+  },
+  "senses": [
+    "blindsight 20 ft. (blind beyond this radius)"
+  ],
+  "passive": 11,
+  "resist": [
+    "acid",
+    "cold"
+  ],
+  "immune": [
+    "fire",
+    "poison"
+  ],
+  "conditionImmune": [
+    "blinded",
+    "charmed",
+    "frightened",
+    "poisoned"
+  ],
+  "languages": [
+    "understands Infernal but can't speak"
+  ],
+  "cr": "1/2",
+  "trait": [
+    {
+      "name": "Cloud of Vermin",
+      "entries": [
+        "Any creature, other than a devil, that starts its turn within 20 feet of one or more nupperibos must succeed on a {@dc 11} Constitution saving throw or take 5 ({@damage 2d4}) acid damage. A creature within the areas of two or more nupperibos makes the saving throw with disadvantage."
+      ]
+    },
+    {
+      "name": "Driven Tracker",
+      "entries": [
+        "In the Nine Hells, the nupperibo can flawlessly track any creature that has taken damage from any nupperibo's Cloud of Vermin within the previous 24 hours."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "entries": [
+        "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+      ]
+    }
+  ],
+  "soundClip": {
+    "type": "internal",
+    "path": "bestiary/nupperibo.opus"
+  },
+  "senseTags": [
+    "B"
+  ],
+  "languageTags": [
+    "CS",
+    "I"
+  ],
+  "damageTags": [
+    "A",
+    "P"
+  ],
+  "miscTags": [
+    "MW"
+  ],
+  "savingThrowForced": [
+    "constitution"
+  ],
+  "hasToken": true,
+  "hasFluff": true,
+  "hasFluffImages": true
+}

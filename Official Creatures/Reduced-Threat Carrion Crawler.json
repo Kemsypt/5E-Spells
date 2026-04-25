@@ -1,0 +1,16 @@
+{
+  "name": "Reduced-Threat Carrion Crawler",
+  "source": "TftYP",
+  "page": 113,
+  "_copy": {
+    "name": "Carrion Crawler",
+    "source": "MM",
+    "_templates": [
+      {
+        "name": "Reduced Threat",
+        "source": "TftYP"
+      }
+    ]
+  },
+  "hasToken": true
+}

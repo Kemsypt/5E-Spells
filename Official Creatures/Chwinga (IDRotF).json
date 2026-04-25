@@ -1,0 +1,15 @@
+{
+  "name": "Chwinga",
+  "source": "IDRotF",
+  "page": 282,
+  "referenceSources": [
+    "CM"
+  ],
+  "_copy": {
+    "name": "Chwinga",
+    "source": "ToA"
+  },
+  "hasToken": true,
+  "hasFluff": true,
+  "hasFluffImages": true
+}

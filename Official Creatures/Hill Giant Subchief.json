@@ -1,0 +1,11 @@
+{
+  "name": "Hill Giant Subchief",
+  "source": "TftYP",
+  "page": 170,
+  "_copy": {
+    "name": "Stone Giant",
+    "source": "MM"
+  },
+  "trait": null,
+  "hasToken": true
+}

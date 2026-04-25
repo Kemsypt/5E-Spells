@@ -1,0 +1,43 @@
+{
+  "name": "Umbraxakar",
+  "isNpc": true,
+  "isNamedCreature": true,
+  "source": "WDMM",
+  "page": 241,
+  "_copy": {
+    "name": "Adult Bronze Dragon",
+    "source": "MM",
+    "_templates": [
+      {
+        "name": "Legendary Shadow Dragon",
+        "source": "MM"
+      }
+    ],
+    "_mod": {
+      "*": {
+        "mode": "replaceTxt",
+        "replace": "the dragon",
+        "with": "Umbraxakar",
+        "flags": "i"
+      }
+    }
+  },
+  "alignment": [
+    "N",
+    "E"
+  ],
+  "traitTags": [
+    "Amphibious",
+    "Legendary Resistances",
+    "Sunlight Sensitivity"
+  ],
+  "damageTags": [
+    "B",
+    "N",
+    "P",
+    "S"
+  ],
+  "damageTagsLegendary": [],
+  "hasToken": true,
+  "hasFluffImages": true
+}

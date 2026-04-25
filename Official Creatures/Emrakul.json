@@ -1,0 +1,26 @@
+{
+  "name": "Emrakul",
+  "isNamedCreature": true,
+  "source": "PSZ",
+  "page": 38,
+  "_copy": {
+    "name": "Tarrasque",
+    "source": "MM",
+    "_templates": [
+      {
+        "name": "Eldrazi",
+        "source": "PSZ"
+      }
+    ],
+    "_mod": {
+      "*": {
+        "mode": "replaceTxt",
+        "replace": "the tarrasque",
+        "with": "Emrakul",
+        "flags": "i"
+      }
+    }
+  },
+  "hasToken": true,
+  "hasFluffImages": true
+}

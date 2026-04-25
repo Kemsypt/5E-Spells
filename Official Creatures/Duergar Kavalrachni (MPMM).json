@@ -1,0 +1,143 @@
+{
+  "name": "Duergar Kavalrachni",
+  "source": "MPMM",
+  "page": 107,
+  "otherSources": [
+    {
+      "source": "MTF",
+      "page": 189
+    }
+  ],
+  "size": [
+    "M"
+  ],
+  "type": {
+    "type": "humanoid",
+    "tags": [
+      "dwarf"
+    ]
+  },
+  "alignment": [
+    "A"
+  ],
+  "ac": [
+    {
+      "ac": 16,
+      "from": [
+        "{@item scale mail|PHB}",
+        "{@item shield|PHB}"
+      ]
+    }
+  ],
+  "hp": {
+    "average": 26,
+    "formula": "4d8 + 8"
+  },
+  "speed": {
+    "walk": 25
+  },
+  "str": 14,
+  "dex": 11,
+  "con": 14,
+  "int": 11,
+  "wis": 10,
+  "cha": 9,
+  "senses": [
+    "darkvision 120 ft."
+  ],
+  "passive": 10,
+  "resist": [
+    "poison"
+  ],
+  "languages": [
+    "Dwarvish",
+    "Undercommon"
+  ],
+  "cr": "2",
+  "trait": [
+    {
+      "name": "Cavalry Training",
+      "entries": [
+        "When the duergar hits a target with a melee attack while mounted, the mount can use its reaction to make one melee attack against the same target."
+      ]
+    },
+    {
+      "name": "Duergar Resilience",
+      "entries": [
+        "The duergar has advantage on saving throws against spells and the {@condition charmed}, {@condition paralyzed}, and {@condition poisoned} conditions."
+      ]
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "entries": [
+        "While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "entries": [
+        "The duergar makes two War Pick attacks."
+      ]
+    },
+    {
+      "name": "War Pick",
+      "entries": [
+        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage plus 5 ({@damage 2d4}) poison damage."
+      ]
+    },
+    {
+      "name": "Heavy Crossbow",
+      "entries": [
+        "{@atk rw} {@hit 2} to hit, range 100/400 ft., one target. {@h}5 ({@damage 1d10}) piercing damage."
+      ]
+    },
+    {
+      "name": "Shared Invisibility (Recharges after a Short or Long Rest)",
+      "entries": [
+        "The duergar magically turns {@condition invisible} for up to 1 hour or until it attacks, it forces a creature to make a saving throw, or its {@status concentration} is broken (as if {@status concentration||concentrating} on a spell). Any equipment the duergar wears or carries is {@condition invisible} with it. While the {@condition invisible} duergar is mounted, the mount is {@condition invisible} as well. The invisibility ends early on the mount immediately after it attacks."
+      ]
+    }
+  ],
+  "environment": [
+    "mountain",
+    "underdark"
+  ],
+  "soundClip": {
+    "type": "internal",
+    "path": "bestiary/duergar-kavalrachni.opus"
+  },
+  "attachedItems": [
+    "heavy crossbow|phb",
+    "war pick|phb"
+  ],
+  "traitTags": [
+    "Sunlight Sensitivity"
+  ],
+  "senseTags": [
+    "SD"
+  ],
+  "actionTags": [
+    "Multiattack"
+  ],
+  "languageTags": [
+    "D",
+    "U"
+  ],
+  "damageTags": [
+    "I",
+    "P"
+  ],
+  "miscTags": [
+    "MLW",
+    "MW",
+    "RNG",
+    "RW"
+  ],
+  "conditionInflict": [
+    "invisible"
+  ],
+  "hasToken": true,
+  "hasFluff": true
+}

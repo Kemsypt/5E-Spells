@@ -1,0 +1,176 @@
+{
+  "name": "White Abishai",
+  "source": "MPMM",
+  "page": 41,
+  "otherSources": [
+    {
+      "source": "MTF",
+      "page": 163
+    }
+  ],
+  "referenceSources": [
+    "CoA"
+  ],
+  "size": [
+    "M"
+  ],
+  "type": {
+    "type": "fiend",
+    "tags": [
+      "devil"
+    ]
+  },
+  "alignment": [
+    "L",
+    "E"
+  ],
+  "alignmentPrefix": "Typically ",
+  "ac": [
+    {
+      "ac": 15,
+      "from": [
+        "natural armor"
+      ]
+    }
+  ],
+  "hp": {
+    "average": 68,
+    "formula": "8d8 + 32"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": 40
+  },
+  "str": 16,
+  "dex": 11,
+  "con": 18,
+  "int": 11,
+  "wis": 12,
+  "cha": 13,
+  "save": {
+    "str": "+6",
+    "con": "+7"
+  },
+  "senses": [
+    "darkvision 120 ft."
+  ],
+  "passive": 11,
+  "resist": [
+    {
+      "resist": [
+        "bludgeoning",
+        "piercing",
+        "slashing"
+      ],
+      "note": "from nonmagical attacks that aren't silvered",
+      "cond": true
+    }
+  ],
+  "immune": [
+    "cold",
+    "fire",
+    "poison"
+  ],
+  "conditionImmune": [
+    "poisoned"
+  ],
+  "languages": [
+    "Draconic",
+    "Infernal",
+    "telepathy 120 ft."
+  ],
+  "cr": "6",
+  "trait": [
+    {
+      "name": "Devil's Sight",
+      "entries": [
+        "Magical darkness doesn't impede the abishai's {@sense darkvision}."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "entries": [
+        "The abishai has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Reckless",
+      "entries": [
+        "At the start of its turn, the abishai can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "entries": [
+        "The abishai makes one Bite attack, one Claw attack, and one Longsword attack."
+      ]
+    },
+    {
+      "name": "Bite",
+      "entries": [
+        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage plus 3 ({@damage 1d6}) cold damage."
+      ]
+    },
+    {
+      "name": "Claw",
+      "entries": [
+        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d10 + 3}) slashing damage."
+      ]
+    },
+    {
+      "name": "Longsword",
+      "entries": [
+        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) force damage, or 8 ({@damage 1d10 + 3}) force damage if used with two hands."
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Vicious Reprisal",
+      "entries": [
+        "In response to taking damage, the abishai makes one Bite attack against a random creature within 5 feet of it. If no creature is within reach, the abishai moves up to half its speed toward an enemy it can see, without provoking {@action opportunity attack||opportunity attacks}."
+      ]
+    }
+  ],
+  "environment": [
+    "urban"
+  ],
+  "soundClip": {
+    "type": "internal",
+    "path": "bestiary/white-abishai.opus"
+  },
+  "attachedItems": [
+    "longsword|phb"
+  ],
+  "traitTags": [
+    "Devil's Sight",
+    "Magic Resistance",
+    "Reckless"
+  ],
+  "senseTags": [
+    "SD"
+  ],
+  "actionTags": [
+    "Multiattack"
+  ],
+  "languageTags": [
+    "DR",
+    "I",
+    "TP"
+  ],
+  "damageTags": [
+    "C",
+    "O",
+    "P",
+    "S"
+  ],
+  "miscTags": [
+    "MLW",
+    "MW"
+  ],
+  "hasToken": true,
+  "hasFluff": true,
+  "hasFluffImages": true
+}

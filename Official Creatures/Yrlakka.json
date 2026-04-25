@@ -1,0 +1,30 @@
+{
+  "name": "Yrlakka",
+  "isNpc": true,
+  "isNamedCreature": true,
+  "source": "WDMM",
+  "page": 202,
+  "_copy": {
+    "name": "Githzerai Zerth",
+    "source": "MM",
+    "_mod": {
+      "*": {
+        "mode": "replaceTxt",
+        "replace": "the githzerai",
+        "with": "Yrlakka",
+        "flags": "i"
+      },
+      "trait": {
+        "mode": "appendArr",
+        "items": {
+          "name": "Special Equipment",
+          "entries": [
+            "Yrlakka carries a {@item Potion of Fire Resistance||potion of resistance (fire)} in a tiny crystal vial fastened to a cord around his right ankle, and he has a {@item wand of magic detection} hanging from his belt."
+          ]
+        }
+      }
+    }
+  },
+  "hasToken": true,
+  "hasFluffImages": true
+}

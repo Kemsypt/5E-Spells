@@ -1,0 +1,20 @@
+{
+  "name": "Trench Giant",
+  "source": "PSZ",
+  "page": 30,
+  "_copy": {
+    "name": "Fomorian",
+    "source": "MM",
+    "_mod": {
+      "*": {
+        "mode": "replaceTxt",
+        "replace": "fomorian",
+        "with": "giant"
+      }
+    }
+  },
+  "tokenCustom": true,
+  "hasToken": true,
+  "hasFluff": true,
+  "hasFluffImages": true
+}

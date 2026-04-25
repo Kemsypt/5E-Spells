@@ -1,0 +1,115 @@
+{
+  "name": "Ice Troll",
+  "source": "IDRotF",
+  "page": 295,
+  "size": [
+    "L"
+  ],
+  "type": "giant",
+  "alignment": [
+    "C",
+    "E"
+  ],
+  "ac": [
+    {
+      "ac": 16,
+      "from": [
+        "natural armor"
+      ]
+    }
+  ],
+  "hp": {
+    "average": 115,
+    "formula": "10d10 + 60"
+  },
+  "speed": {
+    "walk": 30
+  },
+  "str": 18,
+  "dex": 8,
+  "con": 22,
+  "int": 7,
+  "wis": 9,
+  "cha": 7,
+  "skill": {
+    "perception": "+2"
+  },
+  "senses": [
+    "darkvision 60 ft."
+  ],
+  "passive": 12,
+  "immune": [
+    "cold"
+  ],
+  "languages": [
+    "Giant"
+  ],
+  "cr": "8",
+  "trait": [
+    {
+      "name": "Cold Aura",
+      "entries": [
+        "While it's alive, the troll generates an aura of bitter cold that fills the area within 10 feet of it. At the start of the troll's turn, all nonmagical flames in the aura are extinguished. Any creature that starts its turn within 10 feet of the troll takes 10 ({@damage 3d6}) cold damage."
+      ]
+    },
+    {
+      "name": "Keen Smell",
+      "entries": [
+        "The ice troll has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+      ]
+    },
+    {
+      "name": "Regeneration",
+      "entries": [
+        "The ice troll regains 10 hit points at the start of its turn. If the troll takes acid or fire damage, this trait doesn't function at the start of the troll's next turn. The ice troll dies only if it starts its turn with 0 hit points and doesn't regenerate."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "entries": [
+        "The troll makes three attacks: one with its bite and two with its claws."
+      ]
+    },
+    {
+      "name": "Bite",
+      "entries": [
+        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 9 ({@damage 2d8}) cold damage."
+      ]
+    },
+    {
+      "name": "Claw",
+      "entries": [
+        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage plus 9 ({@damage 2d8}) cold damage. If the target takes any of the cold damage, the target must succeed on a {@dc 15} Constitution saving throw or have disadvantage on its attack rolls until the end of its next turn."
+      ]
+    }
+  ],
+  "traitTags": [
+    "Keen Senses",
+    "Regeneration"
+  ],
+  "senseTags": [
+    "D"
+  ],
+  "actionTags": [
+    "Multiattack"
+  ],
+  "languageTags": [
+    "GI"
+  ],
+  "damageTags": [
+    "C",
+    "P",
+    "S"
+  ],
+  "miscTags": [
+    "MW"
+  ],
+  "savingThrowForced": [
+    "constitution"
+  ],
+  "hasToken": true,
+  "hasFluff": true,
+  "hasFluffImages": true
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Koris",
+  "isNpc": true,
+  "isNamedCreature": true,
+  "source": "CRCotN",
+  "page": 106,
+  "_copy": {
+    "name": "Assassin",
+    "source": "MM",
+    "_templates": [
+      {
+        "name": "Tiefling",
+        "source": "PHB"
+      }
+    ],
+    "_mod": {
+      "*": {
+        "mode": "replaceTxt",
+        "replace": "the assassin",
+        "with": "Koris",
+        "flags": "i"
+      }
+    }
+  },
+  "size": [
+    "M"
+  ],
+  "alignment": [
+    "L",
+    "N"
+  ],
+  "damageTagsSpell": [
+    "F"
+  ],
+  "hasToken": true,
+  "hasFluffImages": true
+}

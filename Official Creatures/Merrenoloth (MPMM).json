@@ -1,0 +1,203 @@
+{
+  "name": "Merrenoloth",
+  "source": "MPMM",
+  "page": 180,
+  "otherSources": [
+    {
+      "source": "MTF",
+      "page": 250
+    }
+  ],
+  "size": [
+    "M"
+  ],
+  "type": {
+    "type": "fiend",
+    "tags": [
+      "yugoloth"
+    ]
+  },
+  "alignment": [
+    "N",
+    "E"
+  ],
+  "alignmentPrefix": "Typically ",
+  "ac": [
+    13
+  ],
+  "hp": {
+    "average": 40,
+    "formula": "9d8"
+  },
+  "speed": {
+    "walk": 30,
+    "swim": 40
+  },
+  "str": 8,
+  "dex": 17,
+  "con": 10,
+  "int": 17,
+  "wis": 14,
+  "cha": 11,
+  "save": {
+    "dex": "+5",
+    "int": "+5"
+  },
+  "skill": {
+    "history": "+5",
+    "nature": "+5",
+    "perception": "+4",
+    "survival": "+4"
+  },
+  "senses": [
+    "blindsight 60 ft.",
+    "darkvision 60 ft."
+  ],
+  "passive": 14,
+  "resist": [
+    "cold",
+    "fire",
+    "lightning",
+    {
+      "resist": [
+        "bludgeoning",
+        "piercing",
+        "slashing"
+      ],
+      "note": "from nonmagical attacks",
+      "cond": true
+    }
+  ],
+  "immune": [
+    "acid",
+    "poison"
+  ],
+  "conditionImmune": [
+    "poisoned"
+  ],
+  "languages": [
+    "Abyssal",
+    "Infernal",
+    "telepathy 60 ft."
+  ],
+  "cr": "3",
+  "spellcasting": [
+    {
+      "name": "Spellcasting",
+      "type": "spellcasting",
+      "headerEntries": [
+        "The merrenoloth casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 13}):"
+      ],
+      "will": [
+        "{@spell charm person}",
+        "{@spell darkness}",
+        "{@spell detect magic}",
+        "{@spell dispel magic}",
+        "{@spell gust of wind}"
+      ],
+      "daily": {
+        "3": [
+          "{@spell control water}"
+        ]
+      },
+      "ability": "int",
+      "displayAs": "action"
+    }
+  ],
+  "trait": [
+    {
+      "name": "Magic Resistance",
+      "entries": [
+        "The merrenoloth has advantage on saving throws against spells and other magical effects."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "entries": [
+        "The merrenoloth makes one Oar attack and uses Fear Gaze."
+      ]
+    },
+    {
+      "name": "Oar",
+      "entries": [
+        "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 2d4 + 3}) fire damage."
+      ]
+    },
+    {
+      "name": "Fear Gaze",
+      "entries": [
+        "The merrenoloth targets one creature it can see within 60 feet of it. The target must succeed on a {@dc 13} Wisdom saving throw or become {@condition frightened} of the merrenoloth for 1 minute. The {@condition frightened} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+      ]
+    }
+  ],
+  "bonus": [
+    {
+      "name": "Teleport",
+      "entries": [
+        "The merrenoloth teleports, along with any equipment it is wearing or carrying, up to 60 feet to an unoccupied space it can see."
+      ]
+    }
+  ],
+  "legendaryGroup": {
+    "name": "Merrenoloth",
+    "source": "MPMM"
+  },
+  "environment": [
+    "coastal"
+  ],
+  "soundClip": {
+    "type": "internal",
+    "path": "bestiary/merrenoloth.opus"
+  },
+  "traitTags": [
+    "Magic Resistance"
+  ],
+  "senseTags": [
+    "B",
+    "D"
+  ],
+  "actionTags": [
+    "Multiattack"
+  ],
+  "languageTags": [
+    "AB",
+    "I",
+    "TP"
+  ],
+  "damageTags": [
+    "F"
+  ],
+  "damageTagsSpell": [
+    "B"
+  ],
+  "spellcastingTags": [
+    "O"
+  ],
+  "miscTags": [
+    "MW"
+  ],
+  "conditionInflict": [
+    "frightened"
+  ],
+  "conditionInflictLegendary": [
+    "prone"
+  ],
+  "conditionInflictSpell": [
+    "charmed"
+  ],
+  "savingThrowForced": [
+    "wisdom"
+  ],
+  "savingThrowForcedLegendary": [
+    "strength"
+  ],
+  "savingThrowForcedSpell": [
+    "strength",
+    "wisdom"
+  ],
+  "hasToken": true,
+  "hasFluff": true,
+  "hasFluffImages": true
+}

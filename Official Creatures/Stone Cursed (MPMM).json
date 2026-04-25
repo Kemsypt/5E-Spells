@@ -1,0 +1,119 @@
+{
+  "name": "Stone Cursed",
+  "source": "MPMM",
+  "page": 233,
+  "otherSources": [
+    {
+      "source": "MTF",
+      "page": 240
+    }
+  ],
+  "size": [
+    "M"
+  ],
+  "type": "construct",
+  "alignment": [
+    "L",
+    "E"
+  ],
+  "alignmentPrefix": "Typically ",
+  "ac": [
+    {
+      "ac": 17,
+      "from": [
+        "natural armor"
+      ]
+    }
+  ],
+  "hp": {
+    "average": 19,
+    "formula": "3d8 + 6"
+  },
+  "speed": {
+    "walk": 10
+  },
+  "str": 16,
+  "dex": 5,
+  "con": 14,
+  "int": 5,
+  "wis": 8,
+  "cha": 7,
+  "passive": 9,
+  "immune": [
+    "poison"
+  ],
+  "vulnerable": [
+    "bludgeoning"
+  ],
+  "conditionImmune": [
+    "charmed",
+    "exhaustion",
+    "frightened",
+    "petrified",
+    "poisoned"
+  ],
+  "languages": [
+    "the languages it knew in life"
+  ],
+  "cr": "1",
+  "trait": [
+    {
+      "name": "Cunning Opportunist",
+      "entries": [
+        "The stone cursed has advantage on the attack rolls of {@action opportunity attack||opportunity attacks}."
+      ]
+    },
+    {
+      "name": "False Appearance",
+      "entries": [
+        "If the stone cursed is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the stone cursed move or act, that creature must succeed on a {@dc 18} Intelligence ({@skill Investigation}) check to discern that the stone cursed isn't a statue."
+      ]
+    },
+    {
+      "name": "Unusual Nature",
+      "entries": [
+        "The stone cursed doesn't require air, food, drink, or sleep."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Petrifying Claws",
+      "entries": [
+        "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d8 + 3}) slashing damage. If the target is a creature, it must succeed on a {@dc 12} Constitution saving throw, or it begins to turn to stone and is {@condition restrained} until the end of its next turn, when it must repeat the saving throw. The effect ends if the second save is successful; otherwise the target is {@condition petrified} for 24 hours."
+      ]
+    }
+  ],
+  "environment": [
+    "desert",
+    "mountain",
+    "urban"
+  ],
+  "soundClip": {
+    "type": "internal",
+    "path": "bestiary/stone-cursed.opus"
+  },
+  "traitTags": [
+    "False Appearance",
+    "Unusual Nature"
+  ],
+  "languageTags": [
+    "LF"
+  ],
+  "damageTags": [
+    "S"
+  ],
+  "miscTags": [
+    "MW"
+  ],
+  "conditionInflict": [
+    "petrified",
+    "restrained"
+  ],
+  "savingThrowForced": [
+    "constitution"
+  ],
+  "hasToken": true,
+  "hasFluff": true,
+  "hasFluffImages": true
+}

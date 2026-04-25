@@ -1,0 +1,200 @@
+{
+  "name": "Drow Shadowblade",
+  "source": "MPMM",
+  "page": 105,
+  "otherSources": [
+    {
+      "source": "MTF",
+      "page": 187
+    }
+  ],
+  "size": [
+    "M"
+  ],
+  "type": {
+    "type": "humanoid",
+    "tags": [
+      {
+        "tag": "elf",
+        "prefix": "Drow",
+        "prefixHidden": true
+      }
+    ]
+  },
+  "alignment": [
+    "A"
+  ],
+  "ac": [
+    {
+      "ac": 17,
+      "from": [
+        "{@item studded leather armor|PHB|studded leather}"
+      ]
+    }
+  ],
+  "hp": {
+    "average": 150,
+    "formula": "20d8 + 60"
+  },
+  "speed": {
+    "walk": 30
+  },
+  "str": 14,
+  "dex": 21,
+  "con": 16,
+  "int": 12,
+  "wis": 14,
+  "cha": 13,
+  "save": {
+    "dex": "+9",
+    "con": "+7",
+    "wis": "+6"
+  },
+  "skill": {
+    "perception": "+6",
+    "stealth": "+9"
+  },
+  "senses": [
+    "darkvision 120 ft."
+  ],
+  "passive": 16,
+  "languages": [
+    "Elvish",
+    "Undercommon"
+  ],
+  "cr": "11",
+  "spellcasting": [
+    {
+      "name": "Spellcasting",
+      "type": "spellcasting",
+      "headerEntries": [
+        "The drow casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 13}):"
+      ],
+      "will": [
+        "{@spell dancing lights}",
+        "{@spell darkness}"
+      ],
+      "daily": {
+        "1e": [
+          "{@spell faerie fire}",
+          "{@spell levitate} (self only)"
+        ]
+      },
+      "ability": "cha",
+      "displayAs": "action"
+    }
+  ],
+  "trait": [
+    {
+      "name": "Devil's Sight",
+      "entries": [
+        "Magical darkness doesn't impede the drow's {@sense darkvision}."
+      ]
+    },
+    {
+      "name": "Fey Ancestry",
+      "entries": [
+        "The drow has advantage on saving throws against being {@condition charmed}, and magic can't put the drow to sleep."
+      ]
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "entries": [
+        "While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "entries": [
+        "The drow makes three Shadow Sword attacks. One of the attacks can be replaced by a Hand Crossbow attack. The drow can also use Spellcasting to cast darkness."
+      ]
+    },
+    {
+      "name": "Shadow Sword",
+      "entries": [
+        "{@atk mw,rw} {@hit 9} to hit, reach 5 ft. or range 30/60 ft., one target. {@h}27 ({@damage 7d6 + 5}) necrotic damage."
+      ]
+    },
+    {
+      "name": "Hand Crossbow",
+      "entries": [
+        "{@atk rw} {@hit 9} to hit, range 30/120 ft., one target. {@h}8 ({@damage 1d6 + 5}) piercing damage, and the target must succeed on a {@dc 13} Constitution saving throw or be {@condition poisoned} for 1 hour. If the saving throw fails by 5 or more, the target is also {@condition unconscious} while {@condition poisoned} in this way. The target regains consciousness if it takes damage or if another creature takes an action to shake it."
+      ]
+    }
+  ],
+  "bonus": [
+    {
+      "name": "Shadow Step",
+      "entries": [
+        "While in dim light or darkness, the drow teleports, along with any equipment it is wearing or carrying, up to 60 feet to an unoccupied space it can see that is also in dim light or darkness. It then has advantage on the first melee attack it makes before the end of the turn."
+      ]
+    }
+  ],
+  "variant": [
+    {
+      "type": "variant",
+      "name": "Summon Shadow Demon (1/Day)",
+      "entries": [
+        "The drow attempts to magically summon a {@creature shadow demon} with a {@chance 50} chance of success. If the attempt fails, the drow takes 5 ({@damage 1d10}) psychic damage. Otherwise, the summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 10 minutes, until it or its summoner dies, or until its summoner dismisses it as an action."
+      ],
+      "_version": {
+        "name": "Drow Shadowblade (Summoner)",
+        "addAs": "action"
+      }
+    }
+  ],
+  "environment": [
+    "underdark"
+  ],
+  "soundClip": {
+    "type": "internal",
+    "path": "bestiary/drow-shadowblade.opus"
+  },
+  "attachedItems": [
+    "hand crossbow|phb"
+  ],
+  "traitTags": [
+    "Devil's Sight",
+    "Fey Ancestry",
+    "Sunlight Sensitivity"
+  ],
+  "senseTags": [
+    "SD"
+  ],
+  "actionTags": [
+    "Multiattack"
+  ],
+  "languageTags": [
+    "E",
+    "U"
+  ],
+  "damageTags": [
+    "N",
+    "P",
+    "Y"
+  ],
+  "spellcastingTags": [
+    "O"
+  ],
+  "miscTags": [
+    "MW",
+    "RNG",
+    "RW"
+  ],
+  "conditionInflict": [
+    "poisoned",
+    "unconscious"
+  ],
+  "savingThrowForced": [
+    "constitution"
+  ],
+  "savingThrowForcedSpell": [
+    "constitution",
+    "dexterity"
+  ],
+  "hasToken": true,
+  "hasFluff": true,
+  "hasFluffImages": true
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Sphinx (Type 2)",
+  "source": "PSZ",
+  "page": 24,
+  "_copy": {
+    "name": "Gynosphinx",
+    "source": "MM"
+  },
+  "tokenCustom": true,
+  "damageTagsLegendary": [],
+  "hasToken": true,
+  "hasFluff": true,
+  "hasFluffImages": true
+}

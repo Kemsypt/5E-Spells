@@ -1,0 +1,163 @@
+{
+  "name": "Derro Savant",
+  "source": "MTF",
+  "page": 159,
+  "reprintedAs": [
+    "Derro Savant|MPMM"
+  ],
+  "size": [
+    "S"
+  ],
+  "type": {
+    "type": "humanoid",
+    "tags": [
+      "derro"
+    ]
+  },
+  "alignment": [
+    "C",
+    "E"
+  ],
+  "ac": [
+    {
+      "ac": 13,
+      "from": [
+        "{@item leather armor|phb}"
+      ]
+    }
+  ],
+  "hp": {
+    "average": 36,
+    "formula": "8d6 + 8"
+  },
+  "speed": {
+    "walk": 30
+  },
+  "str": 9,
+  "dex": 14,
+  "con": 12,
+  "int": 11,
+  "wis": 5,
+  "cha": 14,
+  "skill": {
+    "stealth": "+4"
+  },
+  "senses": [
+    "darkvision 120 ft."
+  ],
+  "passive": 7,
+  "languages": [
+    "Dwarvish",
+    "Undercommon"
+  ],
+  "cr": "3",
+  "spellcasting": [
+    {
+      "name": "Spellcasting",
+      "type": "spellcasting",
+      "headerEntries": [
+        "The derro savant is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 12}, {@hit 4} to hit with spell attacks). The derro knows the following sorcerer spells:"
+      ],
+      "spells": {
+        "0": {
+          "spells": [
+            "{@spell acid splash}",
+            "{@spell mage hand}",
+            "{@spell message}",
+            "{@spell prestidigitation}",
+            "{@spell ray of frost}"
+          ]
+        },
+        "1": {
+          "slots": 4,
+          "spells": [
+            "{@spell burning hands}",
+            "{@spell chromatic orb}",
+            "{@spell sleep}"
+          ]
+        },
+        "2": {
+          "slots": 3,
+          "spells": [
+            "{@spell invisibility}",
+            "{@spell spider climb}"
+          ]
+        },
+        "3": {
+          "slots": 2,
+          "spells": [
+            "{@spell lightning bolt}"
+          ]
+        }
+      },
+      "ability": "cha"
+    }
+  ],
+  "trait": [
+    {
+      "name": "Magic Resistance",
+      "entries": [
+        "The derro savant has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "entries": [
+        "While in sunlight, the derro savant has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Quarterstaff",
+      "entries": [
+        "{@atk mw} {@hit 1} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d6 - 1}) bludgeoning damage."
+      ]
+    }
+  ],
+  "environment": [
+    "underdark"
+  ],
+  "soundClip": {
+    "type": "internal",
+    "path": "bestiary/derro-savant.opus"
+  },
+  "attachedItems": [
+    "quarterstaff|phb"
+  ],
+  "traitTags": [
+    "Magic Resistance",
+    "Sunlight Sensitivity"
+  ],
+  "senseTags": [
+    "SD"
+  ],
+  "languageTags": [
+    "D",
+    "U"
+  ],
+  "damageTags": [
+    "B"
+  ],
+  "damageTagsSpell": [
+    "A",
+    "C",
+    "F",
+    "I",
+    "L",
+    "T"
+  ],
+  "spellcastingTags": [
+    "CS"
+  ],
+  "miscTags": [
+    "MLW",
+    "MW"
+  ],
+  "savingThrowForcedSpell": [
+    "dexterity"
+  ],
+  "hasToken": true,
+  "hasFluff": true,
+  "hasFluffImages": true
+}

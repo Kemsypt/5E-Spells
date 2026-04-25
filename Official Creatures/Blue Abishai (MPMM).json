@@ -1,0 +1,198 @@
+{
+  "name": "Blue Abishai",
+  "source": "MPMM",
+  "page": 39,
+  "otherSources": [
+    {
+      "source": "MTF",
+      "page": 161
+    }
+  ],
+  "referenceSources": [
+    "CoA",
+    "VEoR"
+  ],
+  "size": [
+    "M"
+  ],
+  "type": {
+    "type": "fiend",
+    "tags": [
+      "devil",
+      "wizard"
+    ]
+  },
+  "alignment": [
+    "L",
+    "E"
+  ],
+  "alignmentPrefix": "Typically ",
+  "ac": [
+    {
+      "ac": 19,
+      "from": [
+        "natural armor"
+      ]
+    }
+  ],
+  "hp": {
+    "average": 202,
+    "formula": "27d8 + 81"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": 50
+  },
+  "str": 15,
+  "dex": 14,
+  "con": 17,
+  "int": 22,
+  "wis": 23,
+  "cha": 18,
+  "save": {
+    "int": "+12",
+    "wis": "+12"
+  },
+  "skill": {
+    "arcana": "+12"
+  },
+  "senses": [
+    "darkvision 120 ft."
+  ],
+  "passive": 16,
+  "resist": [
+    "cold",
+    {
+      "resist": [
+        "bludgeoning",
+        "piercing",
+        "slashing"
+      ],
+      "note": "from nonmagical attacks that aren't silvered",
+      "cond": true
+    }
+  ],
+  "immune": [
+    "fire",
+    "lightning",
+    "poison"
+  ],
+  "conditionImmune": [
+    "poisoned"
+  ],
+  "languages": [
+    "Draconic",
+    "Infernal",
+    "telepathy 120 ft."
+  ],
+  "cr": "17",
+  "spellcasting": [
+    {
+      "name": "Spellcasting",
+      "type": "spellcasting",
+      "headerEntries": [
+        "The abishai casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 20}):"
+      ],
+      "will": [
+        "{@spell disguise self}",
+        "{@spell mage hand}",
+        "{@spell minor illusion}"
+      ],
+      "daily": {
+        "2e": [
+          "{@spell charm person}",
+          "{@spell dispel magic}",
+          "{@spell greater invisibility}",
+          "{@spell wall of force}"
+        ]
+      },
+      "ability": "int",
+      "displayAs": "action"
+    }
+  ],
+  "trait": [
+    {
+      "name": "Devil's Sight",
+      "entries": [
+        "Magical darkness doesn't impede the abishai's {@sense darkvision}."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "entries": [
+        "The abishai has advantage on saving throws against spells and other magical effects."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "entries": [
+        "The abishai makes three Bite or Lightning Strike attacks."
+      ]
+    },
+    {
+      "name": "Bite",
+      "entries": [
+        "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d10 + 2}) piercing damage plus 14 ({@damage 4d6}) lightning damage."
+      ]
+    },
+    {
+      "name": "Lightning Strike",
+      "entries": [
+        "{@atk rs} {@hit 12} to hit, range 120 ft., one target. {@h}36 ({@damage 8d8}) lightning damage."
+      ]
+    }
+  ],
+  "bonus": [
+    {
+      "name": "Teleport",
+      "entries": [
+        "The abishai teleports, along with any equipment it is wearing or carrying, up to 30 feet to an unoccupied space that it can see."
+      ]
+    }
+  ],
+  "environment": [
+    "coastal",
+    "urban"
+  ],
+  "soundClip": {
+    "type": "internal",
+    "path": "bestiary/blue-abishai.opus"
+  },
+  "traitTags": [
+    "Devil's Sight",
+    "Magic Resistance"
+  ],
+  "senseTags": [
+    "SD"
+  ],
+  "actionTags": [
+    "Multiattack"
+  ],
+  "languageTags": [
+    "DR",
+    "I",
+    "TP"
+  ],
+  "damageTags": [
+    "L",
+    "P"
+  ],
+  "spellcastingTags": [
+    "O"
+  ],
+  "miscTags": [
+    "MW"
+  ],
+  "conditionInflictSpell": [
+    "charmed",
+    "invisible"
+  ],
+  "savingThrowForcedSpell": [
+    "wisdom"
+  ],
+  "hasToken": true,
+  "hasFluff": true,
+  "hasFluffImages": true
+}

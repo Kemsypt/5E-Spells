@@ -1,0 +1,51 @@
+{
+  "name": "Demon",
+  "source": "PSK",
+  "page": 27,
+  "_copy": {
+    "name": "Erinyes",
+    "source": "MM",
+    "_mod": {
+      "*": {
+        "mode": "replaceTxt",
+        "replace": "erinyes",
+        "with": "demon"
+      },
+      "trait": {
+        "mode": "replaceArr",
+        "replace": "Hellish Weapons",
+        "items": {
+          "name": "Hellish Weapons",
+          "entries": [
+            "The demon's weapon attacks are magical and deal an extra 13 ({@damage 3d8}) necrotic damage on a hit (included in the attacks)."
+          ]
+        }
+      },
+      "action": [
+        {
+          "mode": "replaceArr",
+          "replace": "Longsword",
+          "items": {
+            "name": "Longsword",
+            "entries": [
+              "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage, or 9 ({@damage 1d10 + 4}) slashing damage if used with two hands, plus 13 ({@damage 3d8}) necrotic damage."
+            ]
+          }
+        },
+        {
+          "mode": "replaceArr",
+          "replace": "Longbow",
+          "items": {
+            "name": "Longbow",
+            "entries": [
+              "{@atk rw} {@hit 7} to hit, range 150/600 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage plus 13 ({@damage 3d8}) necrotic damage."
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "hasToken": true,
+  "hasFluff": true,
+  "hasFluffImages": true
+}

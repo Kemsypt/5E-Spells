@@ -1,0 +1,208 @@
+{
+  "name": "Sarevok",
+  "isNpc": true,
+  "isNamedCreature": true,
+  "source": "CoA",
+  "page": 48,
+  "size": [
+    "M"
+  ],
+  "type": "humanoid",
+  "alignment": [
+    "N",
+    "E"
+  ],
+  "ac": [
+    {
+      "ac": 21,
+      "from": [
+        "plate armor of Bhaal"
+      ]
+    }
+  ],
+  "hp": {
+    "average": 190,
+    "formula": "20d8 + 100"
+  },
+  "speed": {
+    "walk": 30
+  },
+  "str": 23,
+  "dex": 10,
+  "con": 21,
+  "int": 11,
+  "wis": 18,
+  "cha": 14,
+  "save": {
+    "con": "+11",
+    "wis": "+10"
+  },
+  "skill": {
+    "history": "+6",
+    "intimidation": "+14",
+    "religion": "+6"
+  },
+  "senses": [
+    "darkvision 60 ft."
+  ],
+  "passive": 14,
+  "immune": [
+    "acid",
+    "necrotic",
+    "poison"
+  ],
+  "conditionImmune": [
+    "charmed",
+    "frightened",
+    "poisoned"
+  ],
+  "languages": [
+    "Abyssal",
+    "Common",
+    "Infernal"
+  ],
+  "cr": "17",
+  "spellcasting": [
+    {
+      "name": "Spellcasting",
+      "type": "spellcasting",
+      "headerEntries": [
+        "Sarevok casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 18}):"
+      ],
+      "will": [
+        "{@spell Resistance}",
+        "{@spell Thaumaturgy}"
+      ],
+      "daily": {
+        "1e": [
+          "{@spell Animate Dead}",
+          "{@spell Antimagic Field}",
+          "{@spell Astral Projection}",
+          "{@spell Blade Barrier}",
+          "{@spell Command}",
+          "{@spell Contagion}",
+          "{@spell Dispel Magic}",
+          "{@spell Divination}",
+          "{@spell Etherealness}",
+          "{@spell Fire Storm}",
+          "{@spell Harm}",
+          "{@spell Hold Person}",
+          "{@spell Silence}"
+        ]
+      },
+      "ability": "wis",
+      "displayAs": "action"
+    }
+  ],
+  "trait": [
+    {
+      "name": "Magic Resistance",
+      "entries": [
+        "Sarevok has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Rejuvenation",
+      "entries": [
+        "If Sarevok is killed, he gains a new body in 24 hours, regaining all his hit points. The new body appears on the altar of the temple of Bhaal beneath Baldur's Gate. This ability ceases to function if a cleric of good alignment casts {@spell Hallow} on the altar in the temple of Bhaal."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "entries": [
+        "Sarevok makes three Longsword attacks. He can replace one of the attacks with Flames of Bhaal or Spellcasting."
+      ]
+    },
+    {
+      "name": "Longsword",
+      "entries": [
+        "{@atk mw} {@hit 12} to hit, reach 5ft., one target. {@h}10 ({@damage 1d8 + 6}) slashing damage or 11 ({@damage 1d10 + 6}) if wielded in two hands. The target must succeed on a {@dc 18} Constitution saving throw or be cursed by Bhaal, preventing it from regaining hit points. The curse lasts until removed by the {@spell Remove Curse} spell or similar effect."
+      ]
+    },
+    {
+      "name": "Flames of Bhaal",
+      "entries": [
+        "Sarevok causes flames to engulf one creature that he can see within 60 feet. The target must succeed on a {@dc 18} Dexterity saving throw or take 18 ({@damage 4d8}) necrotic damage. This damage can't be restored except by a {@spell Lesser Restoration} spell or similar effect."
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "name": "Slash",
+      "entries": [
+        "Sarevok makes a Longsword attack."
+      ]
+    },
+    {
+      "name": "Unholy Flame",
+      "entries": [
+        "Sarevok uses Flames of Bhaal."
+      ]
+    },
+    {
+      "name": "Channel Bhaal's Hate (Costs 2 Actions)",
+      "entries": [
+        "Sarevok unleashes Bhaal's power. Creatures within 30 feet of Sarevok, including ones behind barriers and around corners, can't regain hit points until the end of Sarevok's next turn."
+      ]
+    }
+  ],
+  "attachedItems": [
+    "longsword|phb"
+  ],
+  "traitTags": [
+    "Magic Resistance",
+    "Rejuvenation"
+  ],
+  "senseTags": [
+    "D"
+  ],
+  "actionTags": [
+    "Multiattack"
+  ],
+  "languageTags": [
+    "AB",
+    "C",
+    "I"
+  ],
+  "damageTags": [
+    "N",
+    "S"
+  ],
+  "damageTagsSpell": [
+    "F",
+    "N",
+    "O",
+    "S"
+  ],
+  "spellcastingTags": [
+    "O"
+  ],
+  "miscTags": [
+    "CUR",
+    "MLW",
+    "MW"
+  ],
+  "conditionInflictSpell": [
+    "blinded",
+    "deafened",
+    "paralyzed",
+    "poisoned",
+    "prone",
+    "stunned",
+    "unconscious"
+  ],
+  "savingThrowForced": [
+    "constitution",
+    "dexterity"
+  ],
+  "savingThrowForcedSpell": [
+    "constitution",
+    "dexterity",
+    "wisdom"
+  ],
+  "hasToken": true,
+  "hasFluff": true,
+  "hasFluffImages": true
+}

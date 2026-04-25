@@ -1,0 +1,111 @@
+{
+  "name": "Ogre Battering Ram",
+  "source": "MPMM",
+  "page": 200,
+  "otherSources": [
+    {
+      "source": "MTF",
+      "page": 220
+    }
+  ],
+  "size": [
+    "L"
+  ],
+  "type": "giant",
+  "alignment": [
+    "C",
+    "E"
+  ],
+  "alignmentPrefix": "Typically ",
+  "ac": [
+    {
+      "ac": 11,
+      "from": [
+        "{@item hide armor|phb}"
+      ]
+    }
+  ],
+  "hp": {
+    "average": 76,
+    "formula": "9d10 + 27"
+  },
+  "speed": {
+    "walk": 40
+  },
+  "str": 19,
+  "dex": 8,
+  "con": 16,
+  "int": 5,
+  "wis": 7,
+  "cha": 7,
+  "senses": [
+    "darkvision 60 ft."
+  ],
+  "passive": 8,
+  "languages": [
+    "Common",
+    "Giant"
+  ],
+  "cr": "4",
+  "trait": [
+    {
+      "name": "Siege Monster",
+      "entries": [
+        "The ogre deals double damage to objects and structures."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "entries": [
+        "The ogre makes two Bash attacks."
+      ]
+    },
+    {
+      "name": "Bash",
+      "entries": [
+        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d10 + 4}) bludgeoning damage, and the ogre can push the target 5 feet away if the target is Huge or smaller."
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Block the Path",
+      "entries": [
+        "When a creature enters a space within 5 feet of the ogre, the ogre makes a Bash attack against that creature. If the attack hits, the target's speed is reduced to 0 until the start of the ogre's next turn."
+      ]
+    }
+  ],
+  "environment": [
+    "grassland",
+    "hill",
+    "mountain"
+  ],
+  "soundClip": {
+    "type": "internal",
+    "path": "bestiary/ogre-battering-ram.opus"
+  },
+  "traitTags": [
+    "Siege Monster"
+  ],
+  "senseTags": [
+    "D"
+  ],
+  "actionTags": [
+    "Multiattack"
+  ],
+  "languageTags": [
+    "C",
+    "GI"
+  ],
+  "damageTags": [
+    "B"
+  ],
+  "miscTags": [
+    "MW"
+  ],
+  "hasToken": true,
+  "hasFluff": true,
+  "hasFluffImages": true
+}

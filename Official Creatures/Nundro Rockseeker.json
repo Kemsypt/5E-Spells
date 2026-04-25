@@ -1,0 +1,21 @@
+{
+  "name": "Nundro Rockseeker",
+  "isNpc": true,
+  "isNamedCreature": true,
+  "source": "LMoP",
+  "page": 50,
+  "reprintedAs": [
+    "Nundro Rockseeker|PaBTSO"
+  ],
+  "_copy": {
+    "name": "Commoner",
+    "source": "MM",
+    "_templates": [
+      {
+        "name": "Mountain Dwarf",
+        "source": "PHB"
+      }
+    ]
+  },
+  "hasToken": true
+}

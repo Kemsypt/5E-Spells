@@ -1,0 +1,102 @@
+{
+  "name": "Demogorgon",
+  "source": "HftT",
+  "page": 36,
+  "size": [
+    "M"
+  ],
+  "type": "monstrosity",
+  "alignment": [
+    "U"
+  ],
+  "ac": [
+    {
+      "ac": 15,
+      "from": [
+        "natural armor"
+      ]
+    }
+  ],
+  "hp": {
+    "average": 60,
+    "formula": "8d8 + 24"
+  },
+  "speed": {
+    "walk": 30
+  },
+  "str": 16,
+  "dex": 12,
+  "con": 16,
+  "int": 3,
+  "wis": 12,
+  "cha": 5,
+  "skill": {
+    "perception": "+3",
+    "stealth": "+5"
+  },
+  "senses": [
+    "blindsight 60 ft."
+  ],
+  "passive": 13,
+  "cr": "4",
+  "trait": [
+    {
+      "name": "Keen Smell",
+      "entries": [
+        "The demogorgon has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+      ]
+    },
+    {
+      "name": "Blood Frenzy",
+      "entries": [
+        "The demogorgon has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+      ]
+    },
+    {
+      "name": "Regeneration",
+      "entries": [
+        "The demogorgon regains 10 hit points at the start of its turn. If the demogorgon takes acid or fire damage, this trait doesn't function at the start of the demogorgon's next turn. The demogorgon dies only if it starts its turn with 0 hit points and doesn't regenerate."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "entries": [
+        "The demogorgon makes three attacks: one with its bite and two with its claws."
+      ]
+    },
+    {
+      "name": "Bite",
+      "entries": [
+        "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage."
+      ]
+    },
+    {
+      "name": "Claw",
+      "entries": [
+        "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d8 + 3}) slashing damage."
+      ]
+    }
+  ],
+  "traitTags": [
+    "Keen Senses",
+    "Regeneration"
+  ],
+  "senseTags": [
+    "B"
+  ],
+  "actionTags": [
+    "Multiattack"
+  ],
+  "damageTags": [
+    "P",
+    "S"
+  ],
+  "miscTags": [
+    "MW"
+  ],
+  "hasToken": true,
+  "hasFluff": true,
+  "hasFluffImages": true
+}

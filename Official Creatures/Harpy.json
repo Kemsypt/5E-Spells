@@ -1,0 +1,115 @@
+{
+  "name": "Harpy",
+  "source": "MM",
+  "page": 181,
+  "srd": true,
+  "basicRules": true,
+  "referenceSources": [
+    "BMT",
+    "CoA",
+    "DIP",
+    "DoSI",
+    "EGW",
+    "ERLW",
+    "GoS",
+    "IDRotF",
+    "MOT",
+    "PotA",
+    "SKT"
+  ],
+  "size": [
+    "M"
+  ],
+  "type": "monstrosity",
+  "alignment": [
+    "C",
+    "E"
+  ],
+  "ac": [
+    11
+  ],
+  "hp": {
+    "average": 38,
+    "formula": "7d8 + 7"
+  },
+  "speed": {
+    "walk": 20,
+    "fly": 40
+  },
+  "str": 12,
+  "dex": 13,
+  "con": 12,
+  "int": 7,
+  "wis": 10,
+  "cha": 13,
+  "passive": 10,
+  "languages": [
+    "Common"
+  ],
+  "cr": "1",
+  "action": [
+    {
+      "name": "Multiattack",
+      "entries": [
+        "The harpy makes two attacks: one with its claws and one with its club."
+      ]
+    },
+    {
+      "name": "Claws",
+      "entries": [
+        "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}6 ({@damage 2d4 + 1}) slashing damage."
+      ]
+    },
+    {
+      "name": "Club",
+      "entries": [
+        "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) bludgeoning damage."
+      ]
+    },
+    {
+      "name": "Luring Song",
+      "entries": [
+        "The harpy sings a magical melody. Every humanoid and giant within 300 feet of the harpy that can hear the song must succeed on a {@dc 11} Wisdom saving throw or be {@condition charmed} until the song ends. The harpy must take a bonus action on its subsequent turns to continue singing. It can stop singing at any time. The song ends if the harpy is {@condition incapacitated}.",
+        "While {@condition charmed} by the harpy, a target is {@condition incapacitated} and ignores the songs of other harpies. If the {@condition charmed} target is more than 5 feet away from the harpy, the target must move on its turn toward the harpy by the most direct route. It doesn't avoid opportunity attacks, but before moving into damaging terrain, such as lava or a pit, and whenever it takes damage from a source other than the harpy, a target can repeat the saving throw. A creature can also repeat the saving throw at the end of each of its turns. If a creature's saving throw is successful, the effect ends on it.",
+        "A target that successfully saves is immune to this harpy's song for the next 24 hours."
+      ]
+    }
+  ],
+  "environment": [
+    "mountain",
+    "forest",
+    "hill",
+    "coastal"
+  ],
+  "soundClip": {
+    "type": "internal",
+    "path": "bestiary/harpy.opus"
+  },
+  "attachedItems": [
+    "club|phb"
+  ],
+  "actionTags": [
+    "Multiattack"
+  ],
+  "languageTags": [
+    "C"
+  ],
+  "damageTags": [
+    "B",
+    "S"
+  ],
+  "miscTags": [
+    "MLW",
+    "MW"
+  ],
+  "conditionInflict": [
+    "charmed",
+    "incapacitated"
+  ],
+  "savingThrowForced": [
+    "wisdom"
+  ],
+  "hasToken": true,
+  "hasFluff": true,
+  "hasFluffImages": true
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Zeond",
+  "isNpc": true,
+  "isNamedCreature": true,
+  "source": "PaBTSO",
+  "page": 43,
+  "_copy": {
+    "name": "Quasit",
+    "source": "MM",
+    "_mod": {
+      "*": {
+        "mode": "replaceTxt",
+        "replace": "the quasit",
+        "with": "Zeond",
+        "flags": "i"
+      }
+    }
+  },
+  "hasToken": true,
+  "hasFluffImages": true
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Vond",
+  "isNpc": true,
+  "isNamedCreature": true,
+  "source": "WDMM",
+  "page": 202,
+  "_copy": {
+    "name": "Githzerai Zerth",
+    "source": "MM",
+    "_mod": {
+      "*": {
+        "mode": "replaceTxt",
+        "replace": "the githzerai",
+        "with": "Vond",
+        "flags": "i"
+      }
+    }
+  },
+  "hasToken": true,
+  "hasFluffImages": true
+}

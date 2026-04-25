@@ -1,0 +1,23 @@
+{
+  "name": "Chimeric Fox",
+  "source": "IDRotF",
+  "page": 246,
+  "_copy": {
+    "name": "Fox",
+    "source": "IDRotF",
+    "_mod": {
+      "trait": {
+        "mode": "prependArr",
+        "items": {
+          "name": "Chimeric Creation",
+          "entries": [
+            "The fox has fur that changes color to match its surroundings, giving it advantage on Dexterity (Stealth) checks."
+          ]
+        }
+      }
+    }
+  },
+  "tokenCustom": true,
+  "hasToken": true,
+  "hasFluff": true
+}

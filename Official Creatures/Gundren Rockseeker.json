@@ -1,0 +1,21 @@
+{
+  "name": "Gundren Rockseeker",
+  "isNpc": true,
+  "isNamedCreature": true,
+  "source": "LMoP",
+  "page": 41,
+  "reprintedAs": [
+    "Gundren Rockseeker|PaBTSO"
+  ],
+  "_copy": {
+    "name": "Commoner",
+    "source": "MM",
+    "_templates": [
+      {
+        "name": "Mountain Dwarf",
+        "source": "PHB"
+      }
+    ]
+  },
+  "hasToken": true
+}

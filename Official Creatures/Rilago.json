@@ -1,0 +1,21 @@
+{
+  "name": "Rilago",
+  "isNpc": true,
+  "isNamedCreature": true,
+  "source": "KftGV",
+  "page": 147,
+  "_copy": {
+    "name": "Ghost",
+    "source": "MM",
+    "_mod": {
+      "*": {
+        "mode": "replaceTxt",
+        "replace": "the ghost",
+        "with": "Rilago",
+        "flags": "i"
+      }
+    }
+  },
+  "hasToken": true,
+  "hasFluffImages": true
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Drake (Large)",
+  "source": "PSK",
+  "page": 29,
+  "_copy": {
+    "name": "Giant Eagle",
+    "source": "MM",
+    "_mod": {
+      "*": {
+        "mode": "replaceTxt",
+        "replace": "eagle",
+        "with": "drake"
+      }
+    }
+  },
+  "languages": null,
+  "hasToken": true,
+  "hasFluff": true,
+  "hasFluffImages": true
+}

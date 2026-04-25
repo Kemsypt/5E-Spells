@@ -1,0 +1,191 @@
+{
+  "name": "Deathlock Mastermind",
+  "source": "MPMM",
+  "page": 87,
+  "otherSources": [
+    {
+      "source": "MTF",
+      "page": 129
+    }
+  ],
+  "referenceSources": [
+    "AATM"
+  ],
+  "size": [
+    "M"
+  ],
+  "type": {
+    "type": "undead",
+    "tags": [
+      "warlock"
+    ]
+  },
+  "alignment": [
+    "N",
+    "E"
+  ],
+  "alignmentPrefix": "Typically ",
+  "ac": [
+    13
+  ],
+  "hp": {
+    "average": 110,
+    "formula": "20d8 + 20"
+  },
+  "speed": {
+    "walk": 30
+  },
+  "str": 11,
+  "dex": 16,
+  "con": 12,
+  "int": 15,
+  "wis": 12,
+  "cha": 17,
+  "save": {
+    "int": "+5",
+    "cha": "+6"
+  },
+  "skill": {
+    "arcana": "+5",
+    "history": "+5",
+    "perception": "+4"
+  },
+  "senses": [
+    "darkvision 120 ft."
+  ],
+  "passive": 14,
+  "resist": [
+    "necrotic",
+    {
+      "resist": [
+        "bludgeoning",
+        "piercing",
+        "slashing"
+      ],
+      "note": "from nonmagical attacks that aren't silvered",
+      "cond": true
+    }
+  ],
+  "immune": [
+    "poison"
+  ],
+  "conditionImmune": [
+    "exhaustion",
+    "poisoned"
+  ],
+  "languages": [
+    "the languages it knew in life"
+  ],
+  "cr": "8",
+  "spellcasting": [
+    {
+      "name": "Spellcasting",
+      "type": "spellcasting",
+      "headerEntries": [
+        "The deathlock casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 14}):"
+      ],
+      "will": [
+        "{@spell detect magic}",
+        "{@spell disguise self}",
+        "{@spell mage armor}",
+        "{@spell minor illusion}"
+      ],
+      "daily": {
+        "1e": [
+          "{@spell darkness}",
+          "{@spell dimension door}",
+          "{@spell dispel magic}",
+          "{@spell fly}",
+          "{@spell invisibility}"
+        ]
+      },
+      "ability": "cha",
+      "displayAs": "action"
+    }
+  ],
+  "trait": [
+    {
+      "name": "Devil's Sight",
+      "entries": [
+        "Magical darkness doesn't impede the deathlock's {@sense darkvision}."
+      ]
+    },
+    {
+      "name": "Turn Resistance",
+      "entries": [
+        "The deathlock has advantage on saving throws against any effect that turns Undead."
+      ]
+    },
+    {
+      "name": "Unusual Nature",
+      "entries": [
+        "The deathlock doesn't require air, food, drink, or sleep."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "entries": [
+        "The deathlock makes two Deathly Claw or Grave Bolt attacks."
+      ]
+    },
+    {
+      "name": "Deathly Claw",
+      "entries": [
+        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}13 ({@damage 3d6 + 3} necrotic damage)."
+      ]
+    },
+    {
+      "name": "Grave Bolt",
+      "entries": [
+        "{@atk rs} {@hit 6} to hit, range 120 ft., one target. {@h}13 ({@damage 3d8}) necrotic damage. If the target is Large or smaller, it must succeed on a {@dc 16} Strength saving throw or become {@condition restrained} as shadowy tendrils wrap around it for 1 minute. A {@condition restrained} target can use its action to repeat the saving throw, ending the effect on itself on a success."
+      ]
+    }
+  ],
+  "environment": [
+    "urban"
+  ],
+  "soundClip": {
+    "type": "internal",
+    "path": "bestiary/deathlock-mastermind.opus"
+  },
+  "traitTags": [
+    "Devil's Sight",
+    "Turn Resistance",
+    "Unusual Nature"
+  ],
+  "senseTags": [
+    "SD"
+  ],
+  "actionTags": [
+    "Multiattack"
+  ],
+  "languageTags": [
+    "LF"
+  ],
+  "damageTags": [
+    "N"
+  ],
+  "damageTagsSpell": [
+    "O"
+  ],
+  "spellcastingTags": [
+    "O"
+  ],
+  "miscTags": [
+    "MW"
+  ],
+  "conditionInflict": [
+    "restrained"
+  ],
+  "conditionInflictSpell": [
+    "invisible"
+  ],
+  "savingThrowForced": [
+    "strength"
+  ],
+  "hasToken": true,
+  "hasFluff": true,
+  "hasFluffImages": true
+}

@@ -1,0 +1,122 @@
+{
+  "name": "Earth Elemental Myrmidon",
+  "source": "MPMM",
+  "page": 122,
+  "otherSources": [
+    {
+      "source": "MTF",
+      "page": 202
+    }
+  ],
+  "size": [
+    "M"
+  ],
+  "type": "elemental",
+  "alignment": [
+    "N"
+  ],
+  "alignmentPrefix": "Typically ",
+  "ac": [
+    {
+      "ac": 18,
+      "from": [
+        "{@item plate armor|PHB|plate}"
+      ]
+    }
+  ],
+  "hp": {
+    "average": 127,
+    "formula": "17d8 + 51"
+  },
+  "speed": {
+    "walk": 30
+  },
+  "str": 18,
+  "dex": 10,
+  "con": 17,
+  "int": 8,
+  "wis": 10,
+  "cha": 10,
+  "senses": [
+    "darkvision 60 ft."
+  ],
+  "passive": 10,
+  "resist": [
+    {
+      "resist": [
+        "bludgeoning",
+        "piercing",
+        "slashing"
+      ],
+      "note": "from nonmagical attacks",
+      "cond": true
+    }
+  ],
+  "immune": [
+    "poison"
+  ],
+  "conditionImmune": [
+    "paralyzed",
+    "petrified",
+    "poisoned",
+    "prone"
+  ],
+  "languages": [
+    "Terran",
+    "one language of its creator's choice"
+  ],
+  "cr": "7",
+  "action": [
+    {
+      "name": "Multiattack",
+      "entries": [
+        "The myrmidon makes two Maul attacks."
+      ]
+    },
+    {
+      "name": "Maul",
+      "entries": [
+        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) force damage."
+      ]
+    },
+    {
+      "name": "Thunderous Strike {@recharge}",
+      "entries": [
+        "The myrmidon makes one Maul attack. On a hit, the target takes an extra 22 ({@damage 4d10}) thunder damage, and the target must succeed on a {@dc 14} Strength saving throw or be knocked {@condition prone}."
+      ]
+    }
+  ],
+  "soundClip": {
+    "type": "internal",
+    "path": "bestiary/earth-elemental-myrmidon.opus"
+  },
+  "attachedItems": [
+    "maul|phb"
+  ],
+  "senseTags": [
+    "D"
+  ],
+  "actionTags": [
+    "Multiattack"
+  ],
+  "languageTags": [
+    "T"
+  ],
+  "damageTags": [
+    "O",
+    "T"
+  ],
+  "miscTags": [
+    "MLW",
+    "MW"
+  ],
+  "conditionInflict": [
+    "prone"
+  ],
+  "savingThrowForced": [
+    "strength"
+  ],
+  "hasToken": true,
+  "hasFluff": true,
+  "hasFluffImages": true
+}
